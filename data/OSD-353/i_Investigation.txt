@@ -1,0 +1,118 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	UBERON	EFO	OBI	MESH	NCBITAXON	MS	UO
+Term Source File	https://data.bioontology.org/ontologies/UBERON	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/OBI	https://data.bioontology.org/ontologies/MESH	http://data.bioontology.org/ontologies/NCBITAXON	https://data.bioontology.org/ontologies/MS	http://data.bioontology.org/ontologies/UO
+Term Source Version	315	166	31	21	9	162	43
+Term Source Description	Uber Anatomy Ontology	Experimental Factor Ontology	Ontology for Biomedical Investigations	Medical Subject Headings	National Center for Biotechnology Information (NCBI) Organismal Classification	Mass Spectrometry Ontology	Units of Measurement Ontology
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-353
+Study Title	The Effects of Spaceflight Factors on the Human Plasma Proteome, Including Both Real Space Missions and Ground-Based Experiments
+Study Description	The aim of the study was to continue of the proteomic data accumulation on the effects of space flight factors on the human body, including ground-based model experiments. Blood plasma samples were collected from 5 healthy men included in the 21 days head-down bed rest experiment (HDBR) and 5 volunteers participating in a 21 day long dry immersion experiment.
+Study Submission Date	29-Mar-2019
+Study Public Release Date	07-Apr-2019
+Study File Name	s_OSD-353.txt
+Comment[Acknowledgments]	We would like to thank the German Aerospace centre (DLR) as well as the German Federal Ministry for Economic Affairs and Energy for provision by means of support and funding for the conduction of the outlined study.
+Comment[DOI]	10.26030/da2r-2971
+Comment[Data Source Accession]	PXD013305
+Comment[Data Source Link]	https://www.ebi.ac.uk/pride/archive/projects/PXD013305
+Comment[Experiment Platform]	
+Comment[Flight Program]	
+Comment[Funding]	
+Comment[Identifiers]	
+Comment[Managing NASA Center]	
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Project Identifier]	
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Spaceflight Study
+Comment[Space Program]	
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	proteomic profiling by mass spectrometer
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0002766
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID	31261866
+Study Publication DOI	10.3390/ijms20133194
+Study Publication Author List	Brzhozovskiy AG, Kononikhin AS, Pastushkova LC, Kashirina DN, Indeykina MI, Popov IA, Custaud MA, Larina IM, Nikolaev EN.
+Study Publication Title	The Effects of Spaceflight Factors on the Human Plasma Proteome, Including Both Real Space Missions and Ground-Based Experiments.
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	http://europepmc.org/article/MED/31261866#sec3-ijms-20-03194
+STUDY FACTORS
+Study Factor Name	Spaceflight	Bed Rest	Time	Dry Immersion
+Study Factor Type	Space Flight	Bed Rest	time	Dry Immersion
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026	http://purl.bioontology.org/ontology/MESH/D001510	http://www.ebi.ac.uk/efo/EFO_0000721	
+Study Factor Type Term Source REF	MESH	MESH	EFO	
+STUDY ASSAYS
+Study Assay File Name	a_OSD-353_protein-expression-profiling_mass-spectrometry_MaXis 4G.txt
+Study Assay Measurement Type	protein expression profiling
+Study Assay Measurement Type Term Accession Number	obo:OBI_0000615
+Study Assay Measurement Type Term Source REF	OBI
+Study Assay Technology Type	mass spectrometry
+Study Assay Technology Type Term Accession Number	obo:OBI_0000470
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	MaXis 4G
+STUDY PROTOCOLS
+Study Protocol Name	extraction	mass spectrometry	data transformation	sample collection
+Study Protocol Type	extraction	mass spectrometry	data transformation	sample collection
+Study Protocol Type Term Accession Number				
+Study Protocol Type Term Source REF				
+Study Protocol Description	For proteomic analysis, 200 μL of blood plasma was used for high-abundance protein depletion (ProteoMinerTM, BioRad, Hercules, CA, USA) and a concentration of low-abundance proteins. The samples were prepared via the filter-aided sample preparation (FASP) protocol using 10 kDa filters (Merc, London, UK). Plasma proteins were reduced with 0.1 М DTT in 8 M Urea (pH 8.5); alkylated with 0.55M iodoacetamide and digested using trypsin (17 hours, 37C).	The tryptic peptide fraction (injection volume 2 uL) was analyzed in triplicate on a nano-HPLC Dionex Ultimate3000 system (Thermo) coupled to a MaXis 4G (Bruker, Bremen, Germany) using a nanospray ion source(positive ion mode, 1600 V). HPLC separation was performed on a C18 capillary column (75 µm x 50cm, C18, 3µm, 100 A) at a flow rate of 0.3 uL/min by gradient elution with the mobile phase A being 0.1% formic acid in water and mobile phase B - 0.1% formic acid in acetonitrile. The separation was carried out by a 120-min gradient (H2O/ACN containing 0.1% of formic acid) from 3% to 90% of ACN.	MS data were analyzed using the MaxQuant (v 1.5.4.1) program against the SwissProt Human database with the initial precursor mass error – 10 ppm. The minimum peptide length for identification was set to 7 amino acids; the match between the runs option was activated. The cutoff false discovery rate (FDR) for proteins and peptides was set to 0.01 (1% FDR). At least two unique peptide identifications per protein were required. Label free quantitative analysis was performed in order to determine the significantly changed proteins.MS data were analyzed using the MaxQuant (v 1.5.4.1) program against the SwissProt Human database with the initial precursor mass error – 10 ppm. The minimum peptide length for identification was set to 7 amino acids; the match between the runs option was activated. The cutoff false discovery rate (FDR) for proteins and peptides was set to 0.01 (1% FDR). At least two unique peptide identifications per protein were required. Label free quantitative analysis was performed in order to determine the significantly changed proteins.	"Blood plasma samples were collected from 13 cosmonauts (male, age: 46 ± 6 years) before and after long-duration (169–199 days) missions on the ISS (International Space Station). All subjects provided written informed consent to participate in the ‘‘Proteome’’ experiment.
+
+Five healthy men from 20 to 44 years of age were included in the head-down bedrest experiment (HDBR). They voluntarily remained in a bed rest position with an angle of inclination of the longitudinal axis of the body relative to the horizontal position of 6° for 21 days. Subjects characteristics were as follows: 34.3 ± 8.3 year (age), 1.76 ± 0.06 m (height), 69.8 ± 8.0 kg (weight), body mass index 22.4 ± 1.7 (BMI). All the subjects consumed controlled amount of all nutrients in the diet such as proteins, fats, carbohydrates and vitamins, calculated (calories per day) according to general recommendations by the European Space Agency (ESA). The studies were conducted under controlled life conditions of the volunteers at the MEDES research center in Toulouse, France. The examined group was not exposed to any additional stress to prevent the development of adaptive changes in physiological systems. More detailed subjects’ characteristics, medical check-up, inclusion and exclusion criteria, as well as dropout criteria and study design have been described previously.
+
+Samples from the dry immersion study were obtained from 5 volunteers participating in a 21-day-long experiment. Subject characteristics were as follows: 27.5 ± 3.7 year (age), 1.76 ± 0.05 m (height), 75.7 ± 8.4 kg (weight), 24.1 ± 1.3 (BMI). All the subjects consumed a controlled amount of all nutrients in the diet such as proteins, fats, carbohydrates and vitamins, calculated (calories per day) according to general recommendations by the World Health Organization (WHO). This study was conducted under controlled life conditions at the Institute of Biomedical Problems (IBP) of the Russian Federation State Scientific.  During ground-based experiments, cushion using was not restricted. Participants selected for the experiments were non-smokers, non-drugs takers and did not exhibit acute or chronic pathologies which could affect the physiological data. The volunteers had normal clinical and paramedical examination and laboratory tests (hematology and blood chemistry). All the participants gave their informed consent to the experimental conditions after the details of the protocol were explained to them.
+
+All blood samples (~6 mL) were taken from a vein in the cubital fossa, the collection was done in commercial Monovette tubes (SARSTEDT, Germany) containing EDTA (K3) as the anticoagulant. No protease inhibitors or antimicrobial agents were added. The samples were centrifuged for plasma separation (2000 rpm for 15 min, +4 °C) immediately after collection. The supernatant was frozen at −80 °C and stored before further sample preparation for LC-MS analysis. All methods were performed in accordance with the relevant guidelines and regulations."
+Study Protocol URI				
+Study Protocol Version				
+Study Protocol Parameters Name		dissociation;analyzer;chromatography;ion source;instrument;detector		Sample Storage Temperature
+Study Protocol Parameters Name Term Accession Number		;;;;;		
+Study Protocol Parameters Name Term Source REF		;;;;;		
+Study Protocol Components Name				
+Study Protocol Components Type				
+Study Protocol Components Type Term Accession Number				
+Study Protocol Components Type Term Source REF				
+STUDY CONTACTS
+Study Person Last Name	Brzhozovskiy	Kononikhin
+Study Person First Name	Alexander	Alexey
+Study Person Mid Initials		
+Study Person Email	agb.imbp@gmail.com	alex.kononikhin@gmail.com
+Study Person Phone		
+Study Person Fax		
+Study Person Address		
+Study Person Affiliation	Institute of Biomedical Problems, Russian Federation State Scientific Research Center, Russian Academy of Sciences	Institute of Biomedical Problems, Russian Federation State Scientific Research Center, Russian Academy of Sciences
+Study Person Roles	submitter	submitter
+Study Person Roles Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001741	http://www.ebi.ac.uk/efo/EFO_0001741
+Study Person Roles Term Source REF	EFO	EFO
+Comment[Study Person REF]		

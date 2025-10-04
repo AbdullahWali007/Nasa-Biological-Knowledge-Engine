@@ -1,0 +1,114 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT		OBI	CRO	MESH	RBO	OSD
+Term Source File	http://data.bioontology.org/ontologies/EFO		http://purl.obolibrary.org/obo/ncit.owl	http://data.bioontology.org/ontologies/OBI				https://osdr.nasa.gov/
+Term Source Version	132		18.10e	29				1.0
+Term Source Description	Experimental Factor Ontology		NCI Thesaurus OBO Edition	Ontology for Biomedical Investigations				User defined terms
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-776
+Study Title	The impact of deep space radiation on cognitive performance: From biological sex to biomarkers to countermeasures (Flow Cytometry, Blood)
+Study Description	In the coming decade, astronauts will travel back to the moon in preparation for future Mars missions. Exposure to galactic cosmic radiation (GCR) is a major obstacle for deep space travel. Using multivariate principal components analysis, we found sex dimorphic responses in mice exposed to accelerated charged particles to simulate GCR (GCRsim); males displayed impaired spatial learning, whereas females did not. Mechanistically, these GCRsim induced learning impairments corresponded with chronic microglia activation and synaptic alterations in the hippocampus. Temporary microglia depletion shortly after GCRsim exposure mitigated GCRsim induced deficits measured months after the radiation exposure. Furthermore, blood monocyte levels measured early after GCRsim exposure were predictive of the late learning deficits and microglia activation measured in the male mice. Our findings (i) advance our understanding of charged particle induced cognitive challenges, (ii) provide evidence for early peripheral biomarkers for identifying late cognitive deficits, and (iii) offer potential therapeutic strategies for mitigating GCR induced cognitive loss. This study derives results from the Flow Cytometry assay using blood. These data are related to OSD-479 (behavior assays), OSD-777 (Microglia), and OSD-778 (Synapse).
+Study Submission Date	19-Sep-2024
+Study Public Release Date	14-Nov-2024
+Study File Name	s_OSD-776.txt
+Comment[Acknowledgments]	
+Comment[DOI]	10.26030/3gf2-yq81
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	
+Comment[Flight Program]	
+Comment[Funding]	NASA Human Research Program; NNX14AC94G; 80NSSC19K1581
+Comment[Identifiers]	
+Comment[Managing NASA Center]	Ames Research Center (ARC)
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Project Identifier]	Heavy_Ion_HZE_Irradiation, High_Dose_Irradiation, Low_Dose_Irradiation, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, Multiple_Radiation_Types
+Comment[Project Link]	https://osdr.nasa.gov/bio/repo/data/experiments/OS-857
+Comment[Project Title]	The Role of Oxidative Stress and Inflammation on Synaptic Functions After Exposure to Space Radiation
+Comment[Project Type]	Ground Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type
+Study Design Type Term Accession Number
+Study Design Type Term Source REF
+STUDY PUBLICATIONS
+Study PubMed ID	
+Study Publication DOI	10.1126/sciadv.abg6702
+Study Publication Author List	Krukowski K, Grue K, Becker M, Elizarraras E, Frias ES, Halvorsen A, Koenig-Zanoff M, Frattini V, Nimmagadda H, Feng X, Jones T, Nelson G, Ferguson AR, Rosi S.
+Study Publication Title	The impact of deep space radiation on cognitive performance: From biological sex to biomarkers to countermeasures
+Study Publication Status	Published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	
+STUDY FACTORS
+Study Factor Name	Sex	Ionizing Radiation	Treatment	Time of Sample Collection After Irradiation
+Study Factor Type	Sex	ionizing radiation	treatment	Time of Sample Collection After Irradiation
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D012723	http://purl.obolibrary.org/obo/RBO_00000116	http://www.ebi.ac.uk/efo/EFO_0000727	https://osdr.nasa.gov/
+Study Factor Type Term Source REF	MESH	RBO	EFO	OSD
+STUDY ASSAYS
+Study Assay File Name	a_OSD-776_flow-cytometry_flow-cytometry_bd_lsrii.txt
+Study Assay Measurement Type	Flow Cytometry
+Study Assay Measurement Type Term Accession Number	http://purl5.obolibrary.org/obo/NCIT_C1658
+Study Assay Measurement Type Term Source REF	
+Study Assay Technology Type	Flow Cytometry
+Study Assay Technology Type Term Accession Number	http://purl5.obolibrary.org/obo/NCIT_C1658
+Study Assay Technology Type Term Source REF	
+Study Assay Technology Platform	BD_LSRII
+STUDY PROTOCOLS
+Study Protocol Name	Animal Husbandry	Irradiation Protocol	sample collection	Cytometer Info	Labeling Information	Labeling Protocol	ALSDA Transformed Data
+Study Protocol Type	Animal Husbandry	acute	sample collection	Cytometer Info	Labeling Information	Labeling Protocol	data transformation
+Study Protocol Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D000822	http://purl.obolibrary.org/obo/PATO_0000389					http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF	MESH	RBO					OBI
+Study Protocol Description	Male and female C57Bl6/J wild-type 24-week-old mice were purchased from the Jackson Laboratory and the National Institute on Aging and directly delivered to BNL. Animals underwent simplified five-ion GCRsim exposure at the NSRL. Following GCRsim exposure, animals were transported to UCSF for behavioral and cellular analysis. At UCSF, animals were housed on a reverse light cycle and environmentally controlled conditions (12:12-hour light:dark cycle at 21 +/- 1 degrees C; 50% humidity) all had access to food and water ad libitum. When aggressors were identified, they were individually housed with extra enrichment. Chlorhexidine Flush 0.2% Solution (Ceva, Lenexa, KS) was used to treat any wounding that occurred. Mice in which wounding persisted were excluded from analysis. Limited alterations in health states were measured across multiple cohorts and groups with no significant differences due to sex, diet, or GCRsim exposure. Male and female mice were housed in the same room in groups of one, two, three, or four. Estrous cycles were not monitored. Seven days after GCRsim exposure (days 8 to 23 after exposure), mice were switched to PLX5622–1200 ppm (PLX) or normal chow (control diet) for 15 days. The PLX diet was composed of a colony-stimulating factor 1 receptor (CSF1-R) inhibitor that depleted microglia within 3 days (~90%) and sustained the depleted state throughout the duration of the 15-day treatment. Upon returning to a normal diet, microglia repopulation occurs within 7 days.	Following 1 week of acclimation at BNL, mice were then irradiated at the NSRL using the NASA-approved simplified GCRsim protocol. Five charged particle species delivered in rapid succession to simulate the space radiation spectrum expected inside a deep space vehicle with self-shielding by the human body. These particles were, in order of delivery, 1000 MeV/n protons [linear energy transfer (LET) 0.20 keV/mm], 600 MeV/n silicon ions (LET 50.4 keV/mm), 250 MeV/n helium ions (LET 1.60 keV/mm), 350 MeV/n oxygen ions (LET 20.9 keV/mm), and 250 MeV/n protons (LET 0.40 keV/mm), in dose proportions of 35% protons (1000 MeV):1% silicon:18% helium, 6% oxygen, 1% iron, and 39% protons (250 MeV). Total doses of 50 cGy were delivered as part of campaigns NSRL 18B, NSRL 19A, and NSRL 19C. At BNL, animals were housed in groups of four on a normal 12:12 light cycle and transported to the NSRL many hours before GCRsim exposure. Several hours after irradiation, animals were returned to the animal care facility. During each exposure, mice were loaded into 7.3 cm by 4.0 cm by 4.0 cm polystyrene restraint boxes with air holes and mounted on the beam line in cutouts in a standard foam holder. The irradiation time was during the light phase of the circadian cycle. The beam spot size was either 20 cm by 20 cm or 60 cm by 60 cm, and animals were placed in the center of the field to assure best uniformity. Over the three NSRL campaigns, the measured doses for the eight 50 cGy exposures were 50.039 +/- 0.023 cGy delivered over 15.87 min for 20 cm by 20 cm beams or 46.12 min for the 60 cm by 60 cm beams, yielding dose rates of 3.17 cGy/min or 1.09 cGy/min, respectively. The measured proportions of individual ions were as described above, and the maximum deviation from the desired dose contribution was 3% (i.e., 1.03% delivered dose versus 1.00% requested dose) in the case of iron ions. After irradiation, the animals were returned to their home cages and returned to the animal care facility for shipment to UCSF by World Courier within 5 days. NSRL GCR and SPE simulations are designed to approximate the chronic mixed field exposures in space by means of sequential acute exposures to a variety of ion/energy combinations. The exposure protocols are on the NSRL website: https://www.bnl.gov/nsrl/userguide/simgcrsim.php (SimGCRSim). The dose can be administered either in a single series of exposures lasting approximately an hour or in daily fractions over several weeks. The GCR simulations are described in detail here: Simonsen LC, Slaba TC, Guida P, Rusek A (2020) NASA’s first ground-based Galactic Cosmic Ray Simulator: Enabling a new era in space radiobiology research. PLoS Biol 18(5): e3000669. https://doi.org/10.1371/journal.pbio.3000669	"Seven days after GCRsim exposure, upon arrival at UCSF, blood was collected via the tail vein puncture in awake animals. Using a restrainer, a small nick was made in the tail vein using a scalpel
+and ~50 microliter of blood was removed using a pipette and placed in a tube containing EDTA (Sigma-Aldrich). Blood was used to measure acute changes in peripheral blood biomarkers. After the completion of behavior assays at 12 months, animals were lethally overdosed using a mixture of ketamine (10 mg/ml) and xylazine (1 mg/ml). Once animals were completely anesthetized, the chest cavity was opened and blood was collected via cardiac puncture. Mice were perfused with 1× phosphate-buffered saline (PBS) (pH 7.4) (Gibco) until the liver was clear (∼1 to 2 min)."	A LSR II BD Biosciences Flow Cytometer used RBC Lysis BD Biosciences flow solution to perform the flow cytometry assay.	Conjugated antibodies were used to identify CD45, Ly6G, CD8, CD4,  and CD11b monocytes.	"To assess circulating leukocyte populations, blood was aliquoted into tubes and stained with surface antibodies for 30 to 60 min at room temperature (18). Surface antibodies included anti-CD45 [fluorescein isothiocyanate (FITC)–conjugated; BD Biosciences], Ly6G [phycoerythrin (PE)–conjugated; BD Biosciences], CD8 (PE-Cy7–conjugated; BD Biosciences), CD4 [allophycocyanin (APC)–conjugated; BD Biosciences], and CD11b (APC-Cy7–conjugated; BD Biosciences). Leukocyte subpopulations were identified as follows: forward and side scatter was used to exclude debris and
+doublet populations. Specific T cell populations were identified as follows: CD4 T cell subsets were CD4+, CD45+, Ly6G−, CD8−, CD11b−. CD8 T cell subsets were CD8+, CD45+, Ly6G−, CD4−,
+CD11b−. Monocytes were CD11b+, CD45+, Ly6G−, CD4−, CD8−. After surface antibody staining, red blood cells were lysed with RBC lysis (BD Biosciences). Data were collected on LSRII (BD Biosciences) and analyzed with FlowJo software (v10, Tree Star Inc.)."	To enable maximal data reuse (for machine-readable approaches), the submitted version of this dataset was subsequently transformed and edited to be aligned with an assay data reuse template, which was created through feedback provided by subject matter experts in the ALSDA Analysis Working Group. This transformed reusable version is structured so all results are standardized into specific rows (source/subject) and columns (measures). This enables all assay results to be identically structured for efficient data mining.
+Study Protocol URI							
+Study Protocol Version							
+Study Protocol Parameters Name	habitat;Feeding Schedule;Number of Cagemates;Housing Temperature;light cycle;Euthanasia Method	ionizing radiation energy;linear energy transfer;ionizing radiation categorized by source;ionizing radiation device;absorbed radiation dose rate;Exposure Duration;absorbed radiation dose;particle charge	Sample Preservation Method;Sample Collection Method	Type Of Cytometer;Flow Solution	Marker Type;Molecule Or Structure Labeled	Primary Fluorophore (If Conjugated);Primary Company;Primary Duration;Primary Temperature	Original Submitted Files;Transformed Files
+Study Protocol Parameters Name Term Accession Number	http://purl.obolibrary.org/obo/ENVO_01000739;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/NCIT_C90419;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://purl.obolibrary.org/obo/RBO_00005012;http://purl.obolibrary.org/obo/RBO_010013;http://purl.obolibrary.org/obo/RBO_00000001;http://purl.obolibrary.org/obo/RBO_00005070;http://purl.obolibrary.org/obo/RBO_00005011;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://purl.obolibrary.org/obo/RBO_00005010;http://purl.obolibrary.org/obo/RBO_00005040	https://genelab-data.ndc.nasa.gov/;https://osdr.nasa.gov/	;	;	;;;	https://osdr.nasa.gov/;https://osdr.nasa.gov/
+Study Protocol Parameters Name Term Source REF	;OSD;OSD;OSD;NCIT;NCIT	RBO;RBO;RBO;RBO;RBO;NCIT;RBO;RBO	;OSD	;	;	;;;	OSD;OSD
+Study Protocol Components Name							
+Study Protocol Components Type							
+Study Protocol Components Type Term Accession Number							
+Study Protocol Components Type Term Source REF							
+STUDY CONTACTS
+Study Person Last Name	Krukowski	Grue	Becker	Elizarraras	Frias	Halvorsen	Koenig-Zanoff	Frattini	Nimmagadda	Feng	Jones	Nelson	Ferguson	Rosi
+Study Person First Name	Karen	Katherine	McKenna	Edward	Elma S.	Aaron	McKensie	Valentina	Hasitha	Xi	Tamako	Gregory	Adam R.	Susanna
+Study Person Mid Initials														
+Study Person Email														susanna.rosi@ucsf.edu
+Study Person Phone														
+Study Person Fax														
+Study Person Address														
+Study Person Affiliation														University of California, San Francisco
+Study Person Roles	Author	Author	Author	Author	Author	Author	Author	Author	Author	Author	Author	Author	Author	conceptualization role
+Study Person Roles Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.obolibrary.org/obo/NCIT_C42781	http://purl.org/credit/ontology
+Study Person Roles Term Source REF														CRO
+Comment[orcidIdentifier]														0000-0002-9269-3638

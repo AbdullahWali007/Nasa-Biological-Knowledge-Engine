@@ -1,0 +1,117 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	MESH	MS	EFO	OBI	NCBITAXON	UO
+Term Source File	http://data.bioontology.org/ontologies/MESH	http://data.bioontology.org/ontologies/MS	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/NCBITAXON	http://data.bioontology.org/ontologies/UO
+Term Source Version	13	116	166	21	9	43
+Term Source Description	Medical Subject Headings	Mass Spectrometry Ontology	Experimental Factor Ontology	Ontology for Biomedical Investigations	National Center for Biotechnology Information (NCBI) Organismal Classification	Units of Measurement Ontology
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-209
+Study Title	Re-Adaption on Earth after Spaceflights Affects the Mouse Liver Proteome
+Study Description	Harsh environmental conditions including microgravity and radiation during prolonged spaceflights are known to alter hepatic metabolism. Our studies have focused on the analysis of possible changes in metabolic pathways in livers of mice which experienced 30 days of spaceflight with and without an additional re-adaption period of 7 days compared to control mice on Earth. Utilizing shotgun mass spectrometry and label-free quantification, we performed proteomic profiling to investigate mice livers from the spaceflight project “Bion-M 1”. No significant alterations in protein levels were observed between control mice liver and spaceflight mice which is possibly caused by insufficient fold change detection combined with high variances within the groups. In contrast, our results show that more than a third of the quantified protein levels are altered comparing the liver proteome of mice with and without re-adaption time after their spaceflight. Proteins related to amino acid metabolism showed higher levels after re-adaption, which may indicate higher rates of gluconeogenesis. Members of the peroxisome proliferator-activated receptor pathway reconstitute their level after 7 days due to a decrease in fold change, which indicates decreased signs of non-alcoholic fatty liver disease. Moreover, bile acid secretion regenerates on Earth due to reconstitution of related transmembrane proteins and elevated levels of the drug-metabolising enzymes belonging to the CYP superfamily decrease 7 days after the spaceflight. Thus, our study demonstrates reconstitution of pharmacological response and early signs of non-alcoholic fatty liver disease recover within 7 days, whereas glucose uptake should be monitored due to alterations in gluconeogenesis.
+Study Submission Date	10-May-2016
+Study Public Release Date	22-Aug-2017
+Study File Name	s_OSD-209.txt
+Comment[Acknowledgments]	
+Comment[DOI]	10.26030/nt4g-d982
+Comment[Data Source Accession]	PXD005102
+Comment[Data Source Link]	https://www.ebi.ac.uk/pride/archive/projects/PXD005102
+Comment[Experiment Platform]	
+Comment[Flight Program]	
+Comment[Funding]	Russian Scientific Foundation
+Comment[Identifiers]	
+Comment[Managing NASA Center]	
+Comment[Mission End]	19-May-2013
+Comment[Mission Link]	https://lsda.jsc.nasa.gov/Mission/miss/353?
+Comment[Mission Name]	Bion-M1
+Comment[Mission Start]	19-Apr-2013
+Comment[Project Identifier]	Bion-M1
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Spaceflight Study
+Comment[Space Program]	
+Comment[Study Grant Number]	16-44-03007
+STUDY DESIGN DESCRIPTORS
+Study Design Type	proteomic profiling
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0000746
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID	28805685
+Study Publication DOI	10.3390/ijms18081763
+Study Publication Author List	Viktoria Anselm, Svetlana Novikova,2, and Victor Zgoda
+Study Publication Title	Re-Adaption on Earth after Spaceflights Affects the Mouse Liver Proteome
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5578152/
+STUDY FACTORS
+Study Factor Name	Spaceflight	Dissection Timeline	Absorbed Radiation Dose
+Study Factor Type	Space Flight	dissection protocol	Absorbed Radiation Dose
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026		
+Study Factor Type Term Source REF	MESH		
+STUDY ASSAYS
+Study Assay File Name	a_OSD-209_protein-expression-profiling_mass-spectrometry_Exactive (Thermo Scientific).txt
+Study Assay Measurement Type	protein expression profiling
+Study Assay Measurement Type Term Accession Number	obo:OBI_0000615
+Study Assay Measurement Type Term Source REF	OBI
+Study Assay Technology Type	mass spectrometry
+Study Assay Technology Type Term Accession Number	obo:OBI_0000470
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	Exactive (Thermo Scientific)
+STUDY PROTOCOLS
+Study Protocol Name	extraction	mass spectrometry	data transformation	mouse habitation protocol	sample collection	radiation dosimetry
+Study Protocol Type	extraction	mass spectrometry	data transformation	mouse habitation	sample collection	Radiation Dosimetry
+Study Protocol Type Term Accession Number						
+Study Protocol Type Term Source REF						
+Study Protocol Description	Twenty milligrams of each mouse liver were washed with PBS, homogenized in 200 μL lysis buffer (4% SDS in 0.1 M Tris-HCl pH 8.5) and centrifuged at 3000× g at 4 °C for 5 min. Total protein content was measured according to the BCA method. A total protein amount of 100 μg for each sample was used for tryptic digestion according to the common FASP protocol. Briefly, detergents in the samples were exchanged with 100 mM Tris-HCl (pH 8.5) using Microcon filters (10 kDa cut off, Millipore, Bedford, MA, USA). Protein disulfide bridges were reduced with 100 mM 1,4-dithiothreitol in 100 mM Tris-HCl (pH 8.5), alkylation of thiols was performed with 55 mM iodacetamide in 8 M urea/100 mM Tris-HCl (pH 8.5). Tryptic digestion with a trypsin (Sequencing Grade Modified, Promega, Madison, WI, USA) to protein ratio of 1:100 was carried out overnight at 37 °C in a 50 mM tetraethylammonium bicarbonate (pH 8.5) followed by an additional digestion step under the same conditions with 2 h duration.	"We separated 2 μg peptides for each sample with high-performance liquid chromatography (HPLC, Ultimate 3000 Nano LC System, Thermo Scientific, Rockwell, IL, USA) in a 15-cm long C18 column with an inner diameter of 75 μm (Acclaim® PepMap™ RSLC, Thermo Fisher Scientific, Rockwell, IL, USA). The peptides were eluted with a gradient from 5–35% buffer B (80% acetonitrile, 0.1% formic acid) over 115 min at a flow rate of 0.3 μL−1 min. Total run time including 90 min to reach 99% buffer B, flushing 10 min with 99% buffer B and 15 min re-equilibration to buffer A (0.1% formic acid) amounted 155 min. Further analysis was performed with a Q Exactive HF mass spectrometer (Q ExactiveTM HF Hybrid Quadrupole-OrbitrapTM Mass spectrometer, Thermo Fisher Scientific, Rockwell, IL, USA). Mass spectra were acquired at a resolution of 60,000 (MS) and 15,000 (MS/MS) in a m/z range of 400−1500 (MS) and 200–2000 (MS/MS). An isolation threshold of 100,000 counts was determined for precursor’s selection and up to top 25 precursors were chosen for fragmentation with high-energy collisional dissociation (HCD) at 25 NCE and 100 ms accumulation time. Precursors with a charged state of +1 were rejected and all measured precursors were excluded from measurement for 20 s. At least three technical runs were measured for each sample.
+
+Several technical replicates of our biological replicates were measured and the mass spectrometer did not perform well on all of the technical replicates (e.g. voltage issues/lack of ionization spray during measurement). Therefore, we excluded some technical replicates leading to an unequal number of technical replicates."	"The obtained raw data were processed using the MaxQuant software (version 1.5.5.1, Jürgen Cox, Max Planck Institute of Biochemistry, Martinsried, Germany) with the built-in search engine Andromeda. Protein sequences of the complete mouse proteome provided by Uniprot (August 2016) was used for protein identification with Andromeda. Carbamidomethylation of cysteines was set as fixed modification and protein N-terminal acetylation as well as oxidation of methionines was set as variable modification for the peptide search. A maximum mass deviation of 4.5 ppm was allowed for precursor’s identification and 20 ppm were set as match tolerance for fragment identification (acquisition in Orbitrap). Up to two missed cleavages were allowed for trypsin digestion. The software option “Match between runs” was enabled and features within a time window of 0.7 min were used to match between runs. The false discovery rates (FDR) for peptide and protein identifications were set to 1%. Only unique peptides were used for label-free quantification (LFQ) according to the method described by Cox et al.
+
+Raw files were converted into a .mzML file format using ProteoWizard 3.0.10875."	Male C57/BL6 mice (four–five months old) were selected for spaceflight and ground control experiments. At the time of spaceflight and at the start of the related ground control experiments, the mice had average weight 22 ± 2 g. All mice were pathogen-free. To avoid violent behavior mice were trained before the flight and ground control experiment to form the stable groups of three mice each. Animals were adapted to paste diet. Stable cohorts of three mice were housed in each habitat during spaceflight and ground control experiment. During spaceflight the mice were fed with paste-like food with 76–78% water content developed at IBMP RAS. The mice were kept in a natural light-dark cycle (12 h light and 12 h dark). In our experiment, we compared liver proteomes of the mice which passed 30 days (from 19 April 2013 to 19 May 2013) in a biosatellite in space and sampled 13–25 h after landing (flight group) with mice of the same spaceflight sampled seven days after landing (post-flight group). Mice held in a biosatellite on Earth in the similar cage from 26 July 2013 to 26 August 2013 under the corresponding housing and climate conditions (temperature, humidity, and atmosphere gas composition) served as control group. The environmental conditions as well as food delivery were continuously recorded during spaceflight.	All mice were euthanized by cervical dislocation; livers were immediately sampled and stored at −80 °C until further procedures.	"On-board dosimetry details including schematics are available at: https://genelab-data.ndc.nasa.gov/genelab/environmental/radiation/BION-M1/
+  Summary dosimetry is given per sample. Ground Control samples were assumed to have had background radiation exposure, but exposure was not actually measured."
+Study Protocol URI						
+Study Protocol Version						
+Study Protocol Parameters Name		dissociation;analyzer;chromatography;ion source;instrument;detector		sex	Storage Temperature Setting	
+Study Protocol Parameters Name Term Accession Number		;;;;;		http://purl.obolibrary.org/obo/PATO_0000047		
+Study Protocol Parameters Name Term Source REF		;;;;;		EFO		
+Study Protocol Components Name						
+Study Protocol Components Type						
+Study Protocol Components Type Term Accession Number						
+Study Protocol Components Type Term Source REF						
+STUDY CONTACTS
+Study Person Last Name	Anselm	Zgoda
+Study Person First Name	Viktoria	Victor
+Study Person Mid Initials		
+Study Person Email	mail@v-anselm.de	vic@ibmh.msk.su
+Study Person Phone		
+Study Person Fax		
+Study Person Address		
+Study Person Affiliation	Interfaculty Institute of Biochemistry, Tuebingen	Institute of Biomedical Chemistry, Moscow, Russia
+Study Person Roles		lab lead
+Study Person Roles Term Accession Number		
+Study Person Roles Term Source REF		
+Comment[Study Person REF]		

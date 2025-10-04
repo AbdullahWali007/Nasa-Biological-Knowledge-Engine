@@ -1,0 +1,112 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	CRO	OBI	MESH	OSD
+Term Source File	http://data.bioontology.org/ontologies/EFO			http://data.bioontology.org/ontologies/OBI		https://osdr.nasa.gov/
+Term Source Version	132			29		1.0
+Term Source Description	Experimental Factor Ontology			Ontology for Biomedical Investigations		User defined terms
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-772
+Study Title	PH-04 Chile Peppers in Space
+Study Description	Growing plants in spaceflight presents challenges to achieve optimal plant growth and productivity. One of NASA's goals is growing edible crops in spaceflight to supplement the astronauts' diet with fresh vegetables and assess food safety of the crops. It is important to understand the optimal growing conditions for crops grown in spaceflight conditions. Leafy greens have been grown on the International Space Station in the Veggie plant chamber and were safe for the astronauts to eat. The Advanced Plant Habitat (APH), an enclosed, controlled plant growth facility on the ISS has also been used to grow edible plants. The technology demonstration in the APH grew chile peppers, Capsicum annum c.v. NuMex Espanola Improved. This was one of the longest continuous plant growth experiments conducted on ISS (137 days), producing 26 pepper fruit.
+Study Submission Date	12-Sep-2024
+Study Public Release Date	09-Sep-2025
+Study File Name	s_OSD-772.txt
+Comment[Acknowledgments]	
+Comment[DOI]	10.26030/mjvk-v435
+Comment[DOI]	10.26030/mjvk-v435
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	Advanced Plant Habitat (APH)
+Comment[Flight Program]	International Space Station (ISS)
+Comment[Funding]	NASA
+Comment[Identifiers]	
+Comment[Managing NASA Center]	Kennedy Space Center (KSC)
+Comment[Mission End]	
+Comment[Mission Link]	https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-22
+Comment[Mission Name]	SpaceX-22
+Comment[Mission Start]	06/03/2021
+Comment[Project Identifier]	PH-04
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Spaceflight Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	growth condition design
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001759
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name	Spaceflight	Organism Part	Sample Location
+Study Factor Type	Space Flight	Organism Part	sample location
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026	http://www.ebi.ac.uk/efo/EFO_0000635	https://osdr.nasa.gov/
+Study Factor Type Term Source REF	MESH	EFO	OSD
+STUDY ASSAYS
+Study Assay File Name	a_OSD-772_amplicon-sequencing_16s_Illumina.txt
+Study Assay Measurement Type	Amplicon Sequencing
+Study Assay Measurement Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0003747
+Study Assay Measurement Type Term Source REF	EFO
+Study Assay Technology Type	16S
+Study Assay Technology Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D012336
+Study Assay Technology Type Term Source REF	
+Study Assay Technology Platform	Illumina
+STUDY PROTOCOLS
+Study Protocol Name	growth protocol	sample collection	Nucleic Acid Extraction	Library Construction	Nucleic Acid Sequencing	GeneLab raw data processing protocol
+Study Protocol Type	growth protocol	sample collection	Nucleic Acid Extraction	Library Construction	Nucleic Acid Sequencing	data transformation
+Study Protocol Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0003789					http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO	OBI
+Study Protocol Description	The APH Science Carrier is a root module that is divided into four quadrants, each independently controlled. Each quadrant is filled with a porous granular ceramic substrate that was sieved to a particle size of 1-2 mm. The substrate was washed with DI water to remove dust and autoclaved in a covered tray for 30 minutes. The substrate was dried in a forced air oven at 70 degrees C for a minimum of 72 hours until thoroughly dry. Dry and sterile 1-2 mm substrate was weighed and mixed with Nutricote controlled release fertilizer prills. Each quadrant of the Science Carrier was filled with 990 grams of substrate and planted with 12 pepper seeds placed in 3 rows and secured with guar. The overall planting density was 240 plants per meter squared. Seeds were planted in April 2021 and the science carrier was sealed inside a bag and was packaged in foam before being launched from the Kennedy Space Center on Space X CRS-22 on 3 June 2021. The pre-planted science carrier was installed in the APH facility by the Flight Engineer on 12 July 2021 and imbibed until saturated. A team at KSC continuously monitored and tele-operated the experiment from Earth, controlling watering, lighting, and other environmental conditions. The plants germinated and grew for 14 days at an average photosynthetic photon flux of 300 micromol per meter squared per second, a photoperiod of 15 hours day / 8 hours night and an average air temperature setting of 23 degrees C, 80% Relative Humidity, and a wind speed of 0.3 m/s were selected set points and changed as the study progressed. There were 3 pre-programmed light settings throughout the study each having an average of 300 micromol per meter squared per second at three different heights from the science carrier surface. As the plant grew to each of these heights, the lighting was adjusted accordingly. The light spectral quality was 27% red, 33% green, and 40% blue light. The CO2 concentration was controlled at 550 ppm throughout the experiment to reduce the effects of intumescence however CO2 concentrations varied as the plants matured. After 14 days the relative humidity was reduced to 50% and the root zone volumetric moisture content was lowered to 50% respectively. The root zone volumetric moisture was lowered again to 40-45% after thinning to one plant per quadrant and maintained until the end of the experiment. Ethylene concentration was controlled by recirculating the APH chamber air through a scrubber filled potassium permanganate coated pellets. Wind speed was increased periodically after flowers were first seen to assist in flower pollination. Hand pollination was also conducted on each flower by a crew member. During the growth period, the crew thinned the plants on day 28, removed debris from the chamber on days 40, 50, 70, 90, and 110, inserted plant support stands on day 50 to stabilize and provide support to the plant stems, assisted with hand pollination, and harvested the plants.	Harvests took place on day 137. At the completion of the second harvest in November 2021, the PH-04 SC was stowed at ambient temperature and returned to Earth in January 2022. Fruit and leaves were wrapped and stored at -80 degrees C on the ISS until returned to Earth and maintained at that temperature until processing. The Science carrier was returned to KSC where it was placed at 4 degrees C until processing. Samples were taken from the science carrier / root tray surface using swabs and components were sampled. Fruit and leaves were frozen at -80 degrees C in the station's MELFI and maintained at that temperature when received at KSC until processing.	All samples were processed for molecular sequencing. Microbial DNA was isolated from approximately 100 mg of plant tissue (leaf, stem, root, fruit, and seed) or component and placed in a 2 mL sterile screw cap centrifuge tube with up to 4 sterile, stainless steel beads (2.8mm) and flash frozen in liquid nitrogen. Samples were immediately processed in a Bead Ruptor Cryo Mill for 2 minutes at a frequency of 30 Hz. After processing through the Cryo Mill and minimizing tissue thaw, 300 micro liters of power bead solution from the DNeasy UltraClean Microbial Kit was added to the 2 mL tube and vortexed to mix the contents. The subsequent extraction followed the manufacturer's recommendations. Liquid samples from water and swabs were collected after microbial sampling was completed and centrifuged to collect the cell component. Pellets were recovered and the DNA was isolated using the DNeasy UltraClean Microbial kit. DNA was quantified using the Qubit ds DNA Assay for downstream application. The foam and wick samples processed in the same way as the swab samples.	16S PCR was completed with V4 region, customized barcoaded 15S rRNA gene primers as described by Kosich et al. 2013. The PCR master mix contained 1x PCR buffer, 2.25 mM MgCL2, 300 mM dNTPs, 300 nM forward and reverse primers, and 0.25 units of Platinum Taq polymerase. Each reaction was completed in duplicate with 1ng of DNA template per reaction. The thermocycling conditions were denatured at 95 degrees C for e5 minutes followed by 30 cycles at 95 degrees C for 10 minutes completed the PCR. Replicates of PCR reaction were combined, and cleaned with Min-Elute Cleanup System to remove excess primers and dNTPs. Amplicon concentration was determined with the Qbit 2.0 ds DNA assay and nanomolar concentration calculated for each sample. Samples were diluted to 4nM and an equimolar concentration library was created per Illumina's library preparation guidelines.	The library was spiked with a 10% PhiX aliquot to the library and sequenced on the Illumina MiSeq platform with a 500 cycle V2 sequencing kit with 250 bp paired ends and FASTQ reads at more than 30 quality score.	Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12.
+Study Protocol URI						
+Study Protocol Version						
+Study Protocol Parameters Name	Mean Growth Temperature;Quantity of growth medium;Hardware;container;light source;Light Cycle;Light Intensity;growth environment;Light Color;Growth Time;Red Light;Green Light;Blue Light	Sample Preservation Method;Sample Storage Temperature;Age at sample harvest		Library Selection;Primer Info;Library Layout	Sequencing Instrument;Read Length;Raw Sequencing Data	Read Depth;MultiQC File Names
+Study Protocol Parameters Name Term Accession Number	https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0000967;http://purl.obolibrary.org/obo/OBI_0400065;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0000997;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.bioontology.org/ontology/MESH/D000095742;http://purl.bioontology.org/ontology/MESH/D000096585;http://purl.bioontology.org/ontology/MESH/D000095743	https://genelab-data.ndc.nasa.gov/;https://genelab-data.ndc.nasa.gov/;https://osdr.nasa.gov/		;;	;;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;https://osdr.nasa.gov/
+Study Protocol Parameters Name Term Source REF	;;;OBI;OBI;;;OBI;;OSD;MESH;MESH;MESH	;;		;;	;;NCIT	NCIT;OSD
+Study Protocol Components Name						
+Study Protocol Components Type						
+Study Protocol Components Type Term Accession Number						
+Study Protocol Components Type Term Source REF						
+STUDY CONTACTS
+Study Person Last Name	Khodadad	Dixit	Hummerick	Spencer	Spern	Torres	Monje	Richards	Gooden	Curry	Massa	DuFour	Poulet	Romeyn	Wheeler
+Study Person First Name	Christina	Anirudha	Mary	LaShelle	Cory	Jacob	Oscar	Jeffrey	Jennifer	Aaron	Gioia	Nicole	Lucie	Matthew	Raymond
+Study Person Mid Initials	L	R.	E.	E.	J.	J.	A.	T.	L	B.	D.				M.
+Study Person Email	christina.l.khodadad-1@nasa.gov	anirudha.dixit@nasa.gov	mary.e.hummerick@nasa.gov	lashelle.e.spencer@nasa.gov	cory.j.spern@nasa.gov	jtatunm@unm.edu	oscar.a.monje@nasa.gov	jeffrey.t.richards@nasa.gov	jennifer.l.gooden@nasa.gov	aaron.b.curry@nasa.gov	gioia.massa@nasa.gov	nicole.dufour@nasa.gov	Lucie.poulet@uca.fr	gioia.massa@nasa.gov	raymond.m.wheeler@nasa.gov
+Study Person Phone															
+Study Person Fax															
+Study Person Address	Kennedy Space Center		Kennedy Space Center	Kennedy Space Center	Kennedy Space Center	University of New Mexico	Kennedy Space Center	Kennedy Space Center	Kennedy Space Center	Kennedy Space Center	Kennedy Space Center	Kennedy Space Center	Universite Clermont Auvergne	Kennedy Space Center	Kennedy Space Center
+Study Person Affiliation	Noetic Strategies	AETOS Systems Inc	Noetic Strategies, Inc.	Noetic Strategies, Inc	Noetic Strategies, Inc.	University of New Mexico	AETOS Systems Inc	AETOS Systems, Inc	AETOS Systems Inc.	Engineering Research and Consulting LLC	NASA KSC	NASA KSC	Journal DECODER	NASA KSC	NASA KSC
+Study Person Roles	supervision role	methodology role	supervision role	methodology role	validation role	methodology role	visualization role	supervision role	methodology role	methodology role	conceptualization role	software role	software role	conceptualization role	supervision role
+Study Person Roles Term Accession Number	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology
+Study Person Roles Term Source REF	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO
+Comment[orcidIdentifier]	0000-0003-0435-2292	0000-0001-9595-5624			0000-0002-1899-2357						0000-0002-0694-3208		0000-0003-3659-224X		0000-0003-3153-1309

@@ -1,0 +1,115 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	CRO	FMA	MEDO	NCBITAXON	UO	MESH	NCIT	SO	OBI
+Term Source File	https://data.bioontology.org/ontologies/EFO	https://data.bioontology.org/ontologies/CRO	https://data.bioontology.org/ontologies/FMA	https://data.bioontology.org/ontologies/MEDO	https://data.bioontology.org/ontologies/NCBITAXON	https://data.bioontology.org/ontologies/UO	https://data.bioontology.org/ontologies/MESH	https://data.bioontology.org/ontologies/NCIT	https://data.bioontology.org/ontologies/SO	
+Term Source Version	213	4	29	1	17	214	21	101	281	44
+Term Source Description	Experimental Factor Ontology	Contributor Role Ontology	Foundational Model of Anatomy	Mouse Experimental Design Ontology	National Center for Biotechnology Information (NCBI) Organismal Classification	Units of Measurement Ontology	Medical Subject Headings	National Cancer Institute Thesaurus	Sequence Types and Features Ontology	Ontology for Biomedical Investigations
+INVESTIGATION
+Investigation Identifier	1.63E+12
+Investigation Title	Investigation
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-402
+Study Title	Single cell transcriptional profiling of femur bone marrow from mice flown on Rodent Research Reference Mission-2 (RRRM-2)
+Study Description	In the Rodent Research Reference Mission (RRRM-2), forty female C57BL/6NTac mice were flown on the International Space Station. To assess differences in outcomes due to age, twenty 12 week-old and twenty 29 week-old mice were flown, respectively. To directly assess spaceflight effects, half of the young and old mice (10 old, 10 young) were sacrificed on-orbit after 55-58 days (ISS Terminal, ISS-T), while the other half (10 old, 10 young) were returned live to Earth after 32 days and allowed to recover for 24 days (Live Animal Return, LAR) before sacrifice. ISS-T and LAR mice were the same age at sacrifice. Both the ISS-T and LAR animals had independent ground controls (10 mice per group housed in flight hardware in matched environmental conditions), basal controls (10 mice per group sacrificed 2 days before launch), and vivarium controls (10 mice per group housed within standard vivarium habitats). Thus RRRM-2 included a total of 160 mice. This study includes single cell transcriptional profiling data from femur bone marrow from 4 young LAR flight animals, 4 old LAR flight animals, 4 young LAR ground control animals, and 4 old LAR ground control animals.
+Study Submission Date	29-Jul-2021
+Study Public Release Date	12-Aug-2021
+Study File Name	s_OSD-402.txt
+Comment[Acknowledgments]	We would like to thank Dr. Virginia Ferguson for working with Egle Cekanaviciute and Cassie Juran to develop and optimize the dissection flow for the PBMC and marrow harvest for the LAR mice.
+Comment[DOI]	10.26030/r127-mc55
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	Rodent Habitat
+Comment[Flight Program]	International Space Station (ISS)
+Comment[Funding]	This sequencing analysis was funded by the NASA Space Biology program within the NASA Science Mission Directorate's (SMD) Biological and Physical Sciences (BPS) Division.
+Comment[Identifiers]	
+Comment[Managing NASA Center]	NASA Ames Research Center (ARC)
+Comment[Mission End]	08/27/2019
+Comment[Mission Link]	https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-18
+Comment[Mission Name]	SpaceX-18
+Comment[Mission Start]	07/25/2019
+Comment[Project Identifier]	RR-17
+Comment[Project Link]	https://lsda.jsc.nasa.gov/Experiment/exper/27129
+Comment[Project Title]	Rodent Research Reference Mission-2
+Comment[Project Type]	Spaceflight Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	case control design
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001427
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name	Spaceflight	Age
+Study Factor Type	Space Flight	age
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026	http://www.ebi.ac.uk/efo/EFO_0000246
+Study Factor Type Term Source REF	MESH	EFO
+STUDY ASSAYS
+Study Assay File Name	a_OSD-402_transcription-profiling_single-cell-rna-sequencing.txt
+Study Assay Measurement Type	transcription profiling
+Study Assay Measurement Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001032
+Study Assay Measurement Type Term Source REF	EFO
+Study Assay Technology Type	single-cell RNA Sequencing
+Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0002631
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	Illumina NovaSeq 6000
+STUDY PROTOCOLS
+Study Protocol Name	Animal Husbandry	Sample Collection	Cell Isolation	Library Construction	Nucleic Acid Sequencing	GeneLab raw data processing protocol	GeneLab scRNAseq data processing protocol	radiation dosimetry
+Study Protocol Type	Animal Husbandry	Sample Collection	Cell Sorting	Library Construction	Nucleic Acid Sequencing	data transformation	data transformation	chronic
+Study Protocol Type Term Accession Number			http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16406			http://purl.obolibrary.org/obo/OBI_0200000	http://purl.obolibrary.org/obo/OBI_0200000	http://purl.obolibrary.org/obo/PATO_0001863
+Study Protocol Type Term Source REF			NCIT	NCIT	NCIT	EFO	OBI	OBI
+Study Protocol Description	"All mice (C57BL/6NTac) were sourced from Taconic Biosciences (Germantown, NY). Mice were weighed, chipped with BMDS RFID chip (IMI-500) and shipped to NASA KSC for delivery at approximately L-5 weeks. Mice were housed and maintained in the Animal Care Facility (ACF) at NASA KSC with 12:12 light cycle matched in timing to the light cycle used for Transporters and Habitats programmed for flight. All mice were housed in cages of 5 mice/cage with the same littermates as they had been raised. Mice were initially given ad lib standard lab chow and water, which was changed on a schedule of 2x per week. Mice were housed initially on standard bedding and provided igloo-type enrichment. Animal health was checked daily by appropriately trained NASA personnel and contracted lab technicians. At L-4 weeks, mice were placed on raised mesh flooring to simulate spaceflight Transporter and Habitat cage conditions, given water delivered through lixits identical to those used in the flight hardware and put on the NASA Nutrient-Upgraded Rodent Foodbars (NuRFB). Food and water were changed weekly, and mice were weighed bi-weekly. Igloo-type enrichment was provided in all cages. At L-12 days, mice were grouped (10 mice per cage) in larger cages for social acclimation prior to launch. Groupings were done based on age of animals and in a manner to establish similar average weights between any given grouping. At L-2 days, baseline, spaceflight and ground control groups were identified. At L-1 day, spaceflight animals were loaded into spaceflight Transporters. Habitat Ground Control (HGC) mice were loaded into Transporters on a 3-day offset from spaceflight animals. Vivarium Ground Control (VGC) mice (also on a 3-day offset) were returned to 5 mice/cage and placed on standard bedding and provided water through typical sipper tubes at launch equivalent. All mice were maintained on NuRFB throughout the duration of the study. Spaceflight and HGC mice were given new food at weekly intervals. VGC mice were given new food and fresh water also on weekly intervals. An enrichment Hut, in the form of a grated shelter, was provided in the habitat. After splashdown, flight LAR mice were transferred to the animal care facility at Scripps Research Institute where they were assessed and re-caged into standard caging conditions (5 mice/cage, standard bedding and ad lib water from regular sipper tubes).  LAR and ISS-T Ground Control mice were shipped from Kennedy Space Center to Scripps and housed under the same conditions as the flight mice. The study followed recommendations in the Guide for the Care and Use of Laboratory Animals and the protocol was approved by the NASA Flight Institutional Animal Care and Use Committee (IACUC).
+
+Only LAR spaceflight and habitat ground control group samples were processed for scRNAseq in this dataset."	"Live Animal Return (LAR): Mice were anesthetized with gas anesthesia and euthanized by means of cardiac puncture blood draw (exsanguination) and double thoracotomy. All groups (baseline, flight, habitat and vivarium ground controls) were treated identically.
+
+After dissection of the bones from the carcass by the ISS team, bone samples were transferred to our team to perform the following procedures; Bones were manually cleaned to remove all muscle and connective tissue. After cleaning, The bones were placed in a 0.5mL PCR tube and this tube was placed into larger 1mL tube pre filled with 200uL of freezing media 40% whole media (Gibco alphaMEM cat#12571-048), 50% heat inactivated FBS (Gibco cat#16000-044), 10% DMSO (Sigma, cat# A9418-10G). The tubes were centrifuged at 500g for 30 seconds until bone marrow was flushed out of the bone in to the freezing media. After centrifugation, additional 200uL of freezing media was added and the cell suspension was gently mixed by pipetting. Cryovials were put in Mr. Frosty (Nalgene, Cat#C1562-1EA) filled with 250mL of 100% isopropanol for slow freezing. Day after cell isolation, vials were transferred from Mr. Frosty in to -80C storage box."	On the day of library preparation, sample tubes were thawed in a 37C water bath for 30-90 seconds until a small ice pellet remained. After thaw the samples were handled with sterile cell culture technique as follows. The thawed samples were transferred to 4mL of fresh alphaMEM (Gibco Ref# 12571-048) supplemented with 15% FBS (Gibco Ref# 16000-044) and 1% antibiotics and gently agitated by tipping the tube and centrifuged at 500g for 5 minutes. The media supernatant removed and the cell pellet re-suspended in 4mL of 0.04% Bovine Serum Albumin (Sigma Ref# A9418-10G) in PBS (HyClone Ref# SH30028.03) and centrifuged again at previously described settings. This 0.04% BSA was process was repeated for a total of two washes. 10uL cell stock sample was collected and cells counted using TC20 cell counter (BioRad, cat#1450102) and percent live established using a 1:1 trypan blue formula. The cells were centrifuged a last time and resuspended in the appropriate volume of 0.04% BSA for 1000 cells/uL concentration at 80-99% viability. The final suspension was filtered through a 40 micron FlowMi tip filter (Bel-Art, cat# H13680-0040), counted as previously described, and visualized to ensure single cell suspension. Cell suspension tubes were placed on ice and immediately processed following 10X library preparation procedure.	10X Genomics procedure for library preparation was followed (10X Genomics, Single Cell 3' v3 Gene Expression kit cat#1000075, 1000074, 120262). Using the Chromium Controller (10X Genomics, cat#1000204), the cells were encapsulated in Gel bead-in-Emulsion, or GEMs, which are individually tagged with a one of 750,000 independent barcodes. The targeted total cells in a single cell GEM suspension was 8,000 cells for bone marrow samples and 5,000 cells for PBMC and splenocyte samples. Within the GEM cell lysis, barcode association to mRNA, and reverse transcription (RT) was conducted in a single thermal cycler run. Following reverse transcription, the GEMs were ruptured, and the barcoded cDNA was cleaned-up and amplified using traditional wet bench methodologies. Clean-up was conducted using DynaBeads MyOne Silane magnetic beads and appropriate buffers, and 12 amplification cycles were completed using the provided reagents. Post amplification clean-up was conducted using SPRI select magnetic beads (Beckman Counter, cat#B23318) and the single cell cDNA barcode tagged libraries were eluted in EB Buffer (QIAgen, cat#19086). Sequencing libraries were quantified using Qubit 4 instrument (Thermo Fisher Scientific, cat#Q33238) with Qubit 1X dsDNA HS Assay (Invitrogen, cat#Q33231) and library quality was assessed with TapeStation 4200 instrument (Agilent, cat#G2991BA) with D1000 DNA ScreenTape Analysis assay (Agilent, cat#5067-5583 and cat#5067-5582).	scRNA sequencing was performed by GeneLab Sample Processing Lab on Illumina NovaSeq 6000. PhiX included as control. Read 1 contains cell barcode and UMI, and Read 2 contains sequence of interest.	Raw fastq files were assessed for % rRNA using HTStream SeqScreener (version 1.3.2). Raw fastq file quality was evaluated with FastQC (version 0.11.9), and MultiQC (version 1.9) was used to generate the raw MultiQC report.	Data were processed as described in GL-DPPD-7111. In short, raw fastq files were trimmed, filtered, then aligned using STAR (version 2.7.10a). Mus musculus STAR reference was built using STAR (version 2.7.10a), Ensembl release 107, genome version GRCm39 (Mus_musculus.GRCm39.dna.primary_assembly.fa) and the following gtf annotation file: Mus_musculus.GRCm39.107.gtf. Reads were aligned to the Mus musculus STAR reference with STAR (version 2.7.10a) using the STARsolo options described in step 3a of GL-DPPD-7111, and alignment log files were compiled with MultiQC (version 1.12). Gene counts, pre-mRNA counts, annotated and novel splice junctions, and spliced, unspliced and ambiguous counts per cell were calculated and reported.	The absorbed dose of ionizing radiation received by biological payloads on the International Space Station (ISS) depends on a number of factors, including date and duration of exposure and location of the payload on the ISS. Some of the factors that lead to variations in the absorbed dose rate in orbit are ISS altitude, period during the solar cycle, and location of the sample—the ISS module and the specific location within that module. Shielding effects from the biological payload container or habitat have not been taken into account. The measured absorbed dose can vary based on the dosimetry instrument(s) used. Radiation monitoring on the ISS is not standardized across modules; each international partner has its own suite of instruments, with differing technologies, sensitivities and analysis methodologies, including criteria for distinguishing between lightly ionizing particles (mainly protons) and highly ionizing particles (mainly galactic cosmic ray nuclei). Both active and passive dosimeters are used. Active dosimeters are powered and data are read out and stored and/or telemetered to ground. Some active dosimeters provide additional levels of detail such as time resolution, energy deposition and particle identification. Passive dosimeters are unpowered, record constantly and are read out upon return to the ground. The dose in the metadata is the dose recorded by the radiation detector closest to the sample. In most cases that detector will be in the same ISS module; in cases where data from a detector in the same module are not available, the dose is extrapolated using data from periods where data are available from detectors in multiple modules, including the module containing the payload. The duration of the experiment is defined as the time in space during which the specimen was “living”, including the time on the delivery vehicle (e.g. SpaceX Dragon). Once the specimen was frozen or fixed, the experiment was considered stopped. Details of ISS dosimetry and a table with doses for all GeneLab ISS experiment ISS datasets are available at https://genelab.nasa.gov/environmental/radiation.
+Study Protocol URI								
+Study Protocol Version								
+Study Protocol Parameters Name	Habitat;Duration;Light Cycle;Recovery Duration on Earth;Enrichment material;Diet;Feeding Schedule	Euthanasia Method;Carcass Weight;Sample Preservation Method;Sample Storage Temperature	QA Assay;QA Instrument;QA Score	Library Selection;Library Layout;Stranded;Library QA Instrument;Library QA Assay;Fragment Size;cell barcode;Cell Count	Sequencing Instrument;Base Caller;Read Length	Read Depth;rRNA Contamination;MultiQC File Names	aligned sequence data;Aligned Sequence Data/Alignment Logs;Aligned Sequence Data/MultiQC Reports;STARsolo Output Data;STARsolo Output Data/Barcode Stats	ionizing radiation;ionizing radiation categorized by source;exposure duration;absorbed radiation dose;absorbed radiation dose rate;vehicle
+Study Protocol Parameters Name Term Accession Number	;;;;;http://purl.bioontology.org/ontology/MESH/D004032;https://osdr.nasa.gov/	;;;	;;	;;;;;;;	;;	;;	;;;;	;;;;;
+Study Protocol Parameters Name Term Source REF	;;;;;MESH;	;;;	;;	;;;;;;;	;;	;;	;;;;	;;;;;
+Study Protocol Components Name								
+Study Protocol Components Type								
+Study Protocol Components Type Term Accession Number								
+Study Protocol Components Type Term Source REF								
+STUDY CONTACTS
+Study Person Last Name	Galazka	Juran	Cekanaviciute	Stodieck	Roberts	Costes	Gebre	Ferguson	Boyko	Juran	Lai Polo	Peach	Saravia-Butler	Sanders
+Study Person First Name	Jonathan 	Cassie	Egle	Louis	Michael	Sylvain	Samrawit	Virginia	Valery	Cassie	San-Huei	Kristen	Amanda	Lauren
+Study Person Mid Initials	M					V	G						M	
+Study Person Email	jonathan.m.galazka@nasa.gov													
+Study Person Phone														
+Study Person Fax														
+Study Person Address														
+Study Person Affiliation	NASA GeneLab	NASA	NASA	BioServe Space Technologies	ISS National Lab	NASA GeneLab	NASA GeneLab	Dept. of Mechanical Engineering, University of Colorado	NASA GeneLab	NASA	NASA GeneLab	NASA GeneLab	NASA GeneLab	NASA GeneLab
+Study Person Roles	conceptualization role	conceptualization role	conceptualization role	project administration role	project administration role	project administration role	project administration role	project administration role	investigation role	investigation role	data curation role	data curation role	formal analysis role	formal analysis role
+Study Person Roles Term Accession Number	http://purl.org/credit/ontology#CREDIT_00000001	http://purl.org/credit/ontology#CREDIT_00000001	http://purl.org/credit/ontology#CREDIT_00000001	http://purl.org/credit/ontology#CREDIT_00000007	http://purl.org/credit/ontology#CREDIT_00000007	http://purl.org/credit/ontology#CREDIT_00000007	http://purl.org/credit/ontology#CREDIT_00000007	http://purl.org/credit/ontology#CREDIT_00000007	http://purl.org/credit/ontology#CREDIT_00000005	http://purl.org/credit/ontology#CREDIT_00000005	http://purl.org/credit/ontology#CREDIT_00000002	http://purl.org/credit/ontology#CREDIT_00000002	http://purl.org/credit/ontology#CREDIT_00000003	http://purl.org/credit/ontology#CREDIT_00000003
+Study Person Roles Term Source REF	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO	CRO
+Comment[Study Person REF]														

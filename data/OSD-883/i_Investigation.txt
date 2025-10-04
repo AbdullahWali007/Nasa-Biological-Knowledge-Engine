@@ -1,0 +1,125 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	CRO	OBI	RBO	OSD
+Term Source File	http://data.bioontology.org/ontologies/EFO			http://data.bioontology.org/ontologies/OBI		https://osdr.nasa.gov/
+Term Source Version	132			29		1.0
+Term Source Description	Experimental Factor Ontology			Ontology for Biomedical Investigations		User defined terms
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-883
+Study Title	Analysis of Vegetable Seedlings Grown in Contact with Apollo 14 Lunar Surface Fines
+Study Description	Chemical analysis and other measurements made on lunar-treated plant seedlings grown for 14 to 21 days demonstrate a direct interaction between germfree plants and lunar material. Treated plants dissolved and absorbed significant quantities of Al, Fe, and Ti from the lunar fines. Cabbage and Brussels sprouts were particularly efficient in the dissolution and absorption of Mn. These results suggested that the beneficial effects observed in the Apollo 11 and 12 quarantine studies might be caused by the uptake of ions from the lunar material.
+Study Submission Date	13-Aug-2025
+Study Public Release Date	15-Aug-2025
+Study File Name	s_OSD-883.txt
+Comment[Acknowledgments]	The authors are indebted to W. E. Bolton, E. P. Carranza, J. B. Dorsey, Nina Gehring, J. R. Martin, W. B. Nance, and H. C. Sweet, for technical assistance. NASA Life Science Data Archive Media Migration Project OSDR Deputy Project Manager OSDR Curation Lead Enterprise Multimedia and Integrated Technical Services (eMITS) Data and Document Conservation eMITS Photo Operations JSC Medical Library JSC Science and Technical Information Center NASA Archives
+Comment[DOI]	10.26030/92bg-5451
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	
+Comment[Flight Program]	Apollo Program
+Comment[Funding]	Contract: NAS 9-10947, NSR 09-051-001, NAS 9-12050, Technical Proposal No. BB321-55-407P
+Comment[Identifiers]	
+Comment[Managing NASA Center]	Johnson Space Center (JSC)
+Comment[Mission End]	02/09/1971
+Comment[Mission Link]	https://osdr.nasa.gov/bio/repo/data/missions/Apollo 14
+Comment[Mission Name]	Apollo 14
+Comment[Mission Start]	01/31/1971
+Comment[Project Identifier]	Simulated_Environmental_Factors
+Comment[Project Link]	https://osdr.nasa.gov/bio/repo/data/experiments/OS-943
+Comment[Project Title]	OS-943
+Comment[Project Type]	Ground Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	lunar surface	lunar regolith
+Study Design Type Term Accession Number	http://purl.obolibrary.org/obo/RBO_00005019	https://osdr.nasa.gov/
+Study Design Type Term Source REF	RBO	OSD
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name	Treatment	Growth Medium Provenance
+Study Factor Type	treatment	Growth Medium Provenance
+Study Factor Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0000727	https://osdr.nasa.gov/
+Study Factor Type Term Source REF	EFO	OSD
+STUDY ASSAYS
+Study Assay File Name	a_OSD-883_spectrochemical-analysis_optical-emission-spectroscopy_lunar receiving laboratory.txt	a_OSD-883_spectrochemical-analysis_atomic-absorption-spectroscopy_lunar receiving laboratory.txt	a_OSD-883_germination-and-growth-assesment_plant-material-biomass_lunar receiving laboratory.txt
+Study Assay Measurement Type	Spectrochemical Analysis	Spectrochemical Analysis	Germination and Growth Assesment
+Study Assay Measurement Type Term Accession Number	http://purl.jp/bio/4/id/200906010104449419	http://purl.jp/bio/4/id/200906010104449419	http://purl.obolibrary.org/obo/GO_0009791
+Study Assay Measurement Type Term Source REF			
+Study Assay Technology Type	Optical Emission Spectroscopy	Atomic Absorption Spectroscopy	Plant Material Biomass
+Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C94374	http://purl.obolibrary.org/obo/NCIT_C85574	http://purl.dataone.org/odo/ECSO_00001148
+Study Assay Technology Type Term Source REF	NCIT	NCIT	
+Study Assay Technology Platform	Lunar Receiving Laboratory	Lunar Receiving Laboratory	Lunar Receiving Laboratory
+STUDY PROTOCOLS
+Study Protocol Name	growth protocol	treatment protocol	sample collection	Sample Preparation	Assay Procedure	Measurement And Calibration	Sample Preparation 1	Assay Procedure 1	Flame Atomic Absorption Spectroscopy	Graphite Furnace Atomic Absorption Spectroscopy	Seed Germination	Biomass Assesment
+Study Protocol Type	growth protocol	sample treatment protocol	sample collection	Sample Preparation	Assay Procedure	Measurement And Calibration	Sample Preparation	Assay Procedure	Flame Atomic Absorption Spectroscopy	Graphite Furnace Atomic Absorption Spectroscopy	Seed Germination	Biomass Assesment
+Study Protocol Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0003789	http://www.ebi.ac.uk/efo/EFO_0003809										
+Study Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Study Protocol Description	"Seeds to be tested in the Apollo 14 quarantine facilities were obtained from commercial sources and were disinfected with a buffered solution of calcium hypochlorite. The solution was prepared by mixing 174 ml of distilled water, 20 ml of calcium hypochlorite (17 g Ca(OCl)2 dissolved in 100 ml of water), 2.0 ml of 10% triton x-100, and 40 ml of phosphate buffer to adjust the pH to 6.5. This solution was used immediately after preparation to ensure optimum levels of chlorine. For treatment, seeds were placed in a sterile beaker, covered with the disinfectant solution for a 5 -min contact time, and were rinsed 3 times with sterile distilled water. Seed germination tests were
+conducted in special slide trays which were filled partially with moistened BR-8, a woodpulp product (produced by the American Can Company) that is stabilized with acrylonitrile, and allowed to air-dry in a sterile room-temp
+environment. Ten disinfected seeds of each species were placed in each of 10 chambers; however, for carrots, 15 seeds were used. After treatment with 0.22 g of lunar or terrestrial material, germination was initiated by watering
+the slide trays. The planted seeds were kept in total darkness for 2 days then exposed to approximately 8,000 lux with a photoperiod of 16 hr. The temp of the biological containment cabinet was maintained at approximately 23°C. Seeds were
+moistened with distilled water for the first 7 days; thereafter, they were watered with a solution of major elements, until the end of the test. Controls consisted of equal numbers of: 1) units treated with sterilized terrestrial material, and 2) untreated units."	"An analysis of the lunar and terrestrial materials used in the test Based upon dry wt of the respective samples. Terrestrial material was prepared by the Physical Chemical Section of the Lunar Receiving Laboratory. Samples were ground to pass 105u screen, except lunar sample A which was composed of the particles less than 105u.
+
+ The lunar materials were of 2 types: type A, which passed 105-u sieve without grinding, and type B, which passed a 1-mm sieve but
+required grinding to pass the 105-u sieve. Type A had a higher glass content, as was reported for fines from Apollo 11 and 12 collections. Both types were classified as lunar-surface “fines”, to designate materials passing a 1-cm sieve without grinding. The terrestrial basalt-ilmenite control was mixed and ground to simulate Apollo 11 fine materials which passed a 105-u sieve. This material was sterilized for 24 hr at 160° C and used in the same manner as the lunar sample. Seeds were germinated on BR-8, a soil substitute, and grown at 23°C for 14 to 21 days. Ten replicates were employed, except for lettuce where six replicates were used for another analysis. One hundred seeds were planted for all but carrot where 150 seeds were used per treatment. The detailed elemental analysis of the treatment growth media is reported in the sample table."	"Radish seedlings were collected at 14 days by cutting the stem at the soil line, drying the top portion at 105° C until constant wt was obtained, and then ashing the dry samples. The other seedlings were collected on the
+following schedule: cabbage at 17 days, broccoli and lettuce at 18 days, Brussels sprouts at 19 days, and carrots at 21 days. The samples were analyzed by optical
+emission spectographic (OES) and atomic absorption spectrophotometric (AAS) techniques."	"Calculating Ash Factor: The most satisfactory method for ashing samples to minimize loss of volatile inorganic compounds was the use of a low-temperature asher for 3 to 5 days. The low-temperature asher
+operated on the principle of passing oxygen gas at 0.5- to 1-mm pressure through a radio-frequency field, splitting the oxygen into atomic oxygen. The highly active oxygen
+reacted with organic material to form gaseous products below 150° C. The gases were pumped away in the vacuum system leaving only oxidized inorganic components of the samples.
+
+ The OES technique was used to analyze the following minor and trace elements: B, Fe, Al, Mo, Cu, Co, Zn, Ti, and Ni. The method used was a modification of one reported by Taylor et al. Standards were prepared in a matrix consisting of 100mg Na2C03, 400 mg CaC03, 400 mg K2CO3, and 100 mg MgO. These were made from Johnson-Matthey spectrographic-grade reagents."	Twenty mg of the sample to be tested were mixed with 80 mg of graphite containing 50 ppm palladium. Modifications from Taylor’s method included 8 amperes of arcing time (a complete burn) and the Pd (3460.8 A) line as an internal-standard line.	Any documentation available is contained within supplemental file MMP 21221 - ANALYSIS OF VEGETABLE SEEDLINGS GROWN IN CONTACT WITH APOLLO 14 LUNAR SURFACE FINES.pdf and the publications in the reference list. Due to the historic nature of these experiments some metadata is absent or unclear in the available documentation. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.	The AAS technique was used to determine Ca, Mg, Na, K, and Mn. These analyses were performed when there was enough ashed material remaining after the aliquot was taken for the OES technique. Ten mg of ash were dissolved in 2 ml of HCl and diluted to 100 ml with demineralized water.	The methods used for the analysis of each element were those described in the Perkin-Elmer atomic absorption spectrophotometer laboratory manual. Calculations were made using the intensity-ratio method. Concn values were read from previously prepared calibration curves. All final values reported were based on the original weight of the seedlings because they were determined to be as accurate as dry weight.	The available documentation says 'The methods used for the analysis of each element were those described in the Perkin-Elmer atomic absorption spectrophotometer laboratory manual'. Most 1970s Perkin-Elmer AA spectrophotometers were sold as flame AAS systems (with a burner). For example, the Model 403 was commonly used in flame mode. digital.sciencehistory.org. However, the same instruments could be fitted with a Heated Graphite Atomizer (HGA) accessory, converting them to graphite-furnace AAS for trace-level work. Perkin-Elmer’s first commercial graphite furnace, the HGA-70, was introduced around 1970, and later units like the HGA-2100 extended those capabilities. Due to the historic nature of these experiments some metadata is absent or unclear in the available documentation. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.	The available documentation says 'The methods used for the analysis of each element were those described in the Perkin-Elmer atomic absorption spectrophotometer laboratory manual'. Most 1970s Perkin-Elmer AA spectrophotometers were sold as flame AAS systems (with a burner). For example, the Model 403 was commonly used in flame mode. digital.sciencehistory.org. However, the same instruments could be fitted with a Heated Graphite Atomizer (HGA) accessory, converting them to graphite-furnace AAS for trace-level work. Perkin-Elmer’s first commercial graphite furnace, the HGA-70, was introduced around 1970, and later units like the HGA-2100 extended those capabilities. Elemental concentration reported here was extracted from seedling tissue. Due to the historic nature of these experiments some metadata is absent or unclear in the available documentation. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.	"Seed germination tests were
+conducted in special slide trays which were filled partially with moistened BR-8, a woodpulp product (produced by the American Can Company) that is stabilized with acrylonitrile, and allowed to air-dry in a sterile room-temp
+environment. Ten disinfected seeds of each species were placed in each of 10 chambers; however, for carrots, 15 seeds were used."	Radish seedlings were collected at 14 days by cutting the stem at the soil line, cabbage at 17 days, broccoli and lettuce at 18 days, Brussels sprouts at 19 days, and carrots at 21 days.
+Study Protocol URI												
+Study Protocol Version												
+Study Protocol Parameters Name	Growth Time;Mean Growth Temperature;Growth Medium;container;Number of seeds per container;light cycle;Light Intensity	Treatment Growth Medium;Quantity of treatment medium;Growth Medium Al;Growth Medium Ca;Growth Medium Co;Growth Medium Cu;Growth Medium Fe;Growth Medium K;Growth Medium Mn;Growth Medium Mg;Growth Medium Na;Growth Medium Ni;Growth Medium Ti	Number of pooled seedlings	Solid Or Aqueous Sample?;Solid Prep Notes;Solution Prep Method	Instrument Make;Spectrometer Type;Discharge Current	Elements Targeted;Calibration Strategy;Internal Standard	Solid Or Aqueous Sample?;Sample Preservation Method;Sample Digestion Method;Acid 1 Used For Acidification;Solution Final Volume	AAS Modality;Instrument Make;Instrument Model;Radiation Source		Aluminum;Boron;Calcium;Cobalt;Copper;Iron;Potassium;Magnesium;Manganese;Molybdenum;Sodium;Nickel	Seed Sanitization;Substrate Type;Mean Germination Temperature;Number Of Seeds Per Container	Age At Sample Harvest;Total Wet Biomass;Average Plant Height
+Study Protocol Parameters Name Term Accession Number	https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://purl.obolibrary.org/obo/OBI_0000967;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/NCIT_C90419;https://osdr.nasa.gov/	https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/	https://osdr.nasa.gov/	;;	;;	;;	;;;;	;;;		http://purl.bioontology.org/ontology/MESH/D000535;http://purl.bioontology.org/ontology/MESH/D001895;http://purl.bioontology.org/ontology/MESH/D002118;http://purl.bioontology.org/ontology/MESH/D003035;http://purl.bioontology.org/ontology/MESH/D003300;http://purl.bioontology.org/ontology/MESH/D007501;http://purl.bioontology.org/ontology/MESH/D011188;http://purl.bioontology.org/ontology/MESH/D008274;http://purl.bioontology.org/ontology/MESH/D008345;http://purl.bioontology.org/ontology/MESH/D008982;http://purl.bioontology.org/ontology/MESH/D012964;http://purl.bioontology.org/ontology/MESH/D009532	;;;	;;https://osdr.nasa.gov/
+Study Protocol Parameters Name Term Source REF	;;NCIT;OBI;OSD;NCIT;OSD	OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD;OSD	OSD	;;	;;	;;	;;;;	;;;		;;;;;;;;;;;	;;;	;;OSD
+Study Protocol Components Name												
+Study Protocol Components Type												
+Study Protocol Components Type Term Accession Number												
+Study Protocol Components Type Term Source REF												
+STUDY CONTACTS
+Study Person Last Name	Walkinshaw	Johnson
+Study Person First Name	Charles	Pratt
+Study Person Mid Initials	H	H
+Study Person Email		
+Study Person Phone		
+Study Person Fax		
+Study Person Address		
+Study Person Affiliation	NASA/Manned Spacecraft Center, Houston, Texas	NASA/Manned Spacecraft Center, Houston, Texas
+Study Person Roles	supervision role	supervision role
+Study Person Roles Term Accession Number	http://purl.org/credit/ontology	http://purl.org/credit/ontology
+Study Person Roles Term Source REF	CRO	CRO

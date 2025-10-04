@@ -1,0 +1,118 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	NCBITAXON	ENVO	EFO	OBI	NCIT	MESH	UO
+Term Source File	http://data.bioontology.org/ontologies/NCBITAXON	http://data.bioontology.org/ontologies/ENVO	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/NCIT	http://data.bioontology.org/ontologies/MESH	http://data.bioontology.org/ontologies/UO
+Term Source Version	2	48	166	21	52	5	43
+Term Source Description	National Center for Biotechnology Information (NCBI) Organismal Classification	Environment Ontology	Experimental Factor Ontology	Ontology for Biomedical Investigations	National Cancer Institute Thesaurus	Medical Subject Headings	Units of Measurement Ontology
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-87
+Study Title	Spaceflight effects on the mouse retina: Histological, gene expression and epigenetic changes after flight on STS-135
+Study Description	We report the findings of an animal experiment onboard STS-135 investigating the molecular aspects of the impact of spaceflight on retinal biology by performing differential gene expression profiling between mice flown onboard STS-135 and their ground control counterparts.
+Study Submission Date	30-Sep-2016
+Study Public Release Date	16-Dec-2016
+Study File Name	s_OSD-87.txt
+Comment[Acknowledgments]	The authors would like to thank NASA Human Research Program and the UTMB Genomics Core for their help in conducting analysis of microarray results
+Comment[DOI]	10.26030/37zx-z780
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	Animal Enclosure Module (AEM)
+Comment[Flight Program]	Space Transportation System (STS)
+Comment[Funding]	Funding was provided by NASA Human Research Program
+Comment[Identifiers]	
+Comment[Managing NASA Center]	Johnson Space Center (JSC)
+Comment[Mission End]	07/21/2011
+Comment[Mission Link]	https://osdr.nasa.gov/bio/repo/data/missions/STS-135
+Comment[Mission Name]	STS-135
+Comment[Mission Start]	07/08/2011
+Comment[Project Identifier]	BSP135
+Comment[Project Link]	https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1857
+Comment[Project Title]	Spaceflight Effects on the Mouse Retina: Histological, Gene Expression and Epigenetic Changes After Flight
+Comment[Project Type]	Spaceflight study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	ARC00XX119
+STUDY DESIGN DESCRIPTORS
+Study Design Type	transcription profiling by array
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0002768
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID	
+Study Publication DOI	10.2478/gsr-2014-0001
+Study Publication Author List	Theriot Corey A., Zanello Susana B.
+Study Publication Title	Molecular Effects of Spaceflight in the Mouse Eye after Space Shuttle Mission STS-135
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	http://dx.doi.org/10.2478/gsr-2014-0001
+STUDY FACTORS
+Study Factor Name	Spaceflight
+Study Factor Type	Space Flight
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026
+Study Factor Type Term Source REF	MESH
+STUDY ASSAYS
+Study Assay File Name	a_OSD-87_transcription-profiling_dna-microarray_affymetrix.txt
+Study Assay Measurement Type	transcription profiling
+Study Assay Measurement Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0000424
+Study Assay Measurement Type Term Source REF	OBI
+Study Assay Technology Type	DNA microarray
+Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0400148
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	Affymetrix
+STUDY PROTOCOLS
+Study Protocol Name	Animal Husbandry	Radiation Dosimetry	sample collection	RNA extraction	labeling	nucleic acid hybridization	GeneLab microarray data processing protocol
+Study Protocol Type	Animal Husbandry	Radiation Dosimetry	sample collection	RNA extraction	labeling	nucleic acid hybridization	data transformation
+Study Protocol Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D000822	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl					http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF	MESH	NCIT	NCIT	NCIT	NCIT	NCIT	OBI
+Study Protocol Description	"Mice were flown onboard STS-135 that lifted off at 11:29 am EDT on July 8, 2011 and landed at 5:57 am on July 21, 2011. The mission duration was 12 days, 18 hours, 28 minutes.
+
+Female 9 to 11 week-old C57BL/6CR mice were assigned to one of two experimental groups: Flight (FLT) and Animal Enclosure Module (AEM) ground controls. The flight animals were housed in AEMs identical to the ground controls, and our analysis focuses on the comparison between these two conditions.
+
+The AEM was located in the middeck locker of the Space Shuttle, and the temperature was set at 3 to 8C above the environmental middeck temperature. Lighting of 14 lux was set to a 12 hour day/12 hour night cycle for both FLT and AEM habitats."	The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was 'living'. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at https://www.nasa.gov/reference/osdr-environmental-data/.  The ground samples were not assessed for radiation exposure.	Both eyes from three animals for each group (n equals 3) were used in this study, one for gene expression analysis and the other for histology. After euthanasia at day one of landing, one eye of each mouse was enucleated and fixed for histologic examination. The contralateral eye was placed in RNA preservative (RNAlater) until further dissection, which was performed by making an incision by scalpel to separate the posterior eye cup, removing the lens and vitreous and carefully scraping the retina. The retina was then placed again in RNAlater and processed for gene expression profiling by microarray analysis.	Total RNA was then isolated from the retina using the AllPrep DNA/RNA Micro kit (Qiagen, Valencia, CA) and analyzed for quality using an Agilent 2100 Bioanalyzer (Agilent Technologies, Inc., Santa Clara, CA).	Microarray gene expression analysis was performed at the University of Texas Medical Branch (UTMB) at Galveston Molecular Genomics Core. Please contact UTMB for protocol details.	"Microarray gene expression analysis was performed at the
+University of Texas Medical Branch (UTMB) at Galveston Molecular Genomics Core using Affymetrix Mouse 430 2.0 GeneChip (Affymetrix, Inc., Santa Clara, CA) with
+Affymetrix Expression Console and Transcriptome Analysis Console for secondary analysis."	Data were processed as described in GL-DPPD-7114 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Mm.eg.db (version 3.15.0).
+Study Protocol URI							
+Study Protocol Version							
+Study Protocol Parameters Name	habitat;Euthanasia time after landing;light cycle	Exposure Duration;Absorbed Radiation Dose;Maximum Total Absorbed Dose;Minimum Total Absorbed Dose;ionizing radiation	Sample Storage Method;Sample Preservation Method		Array Design REF	Array Data File	Raw Intensities Table;Normalized Expression Table;differential expression analysis data
+Study Protocol Parameters Name Term Accession Number	http://purl.obolibrary.org/obo/ENVO_01000739;;http://purl.obolibrary.org/obo/NCIT_C90419	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;;;http://purl.obolibrary.org/obo/RBO_00000116	;		https://osdr.nasa.gov/	https://osdr.nasa.gov/	https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0002584
+Study Protocol Parameters Name Term Source REF	ENVO;;NCIT	NCIT;NCIT;;;	;				;;OBI
+Study Protocol Components Name							
+Study Protocol Components Type							
+Study Protocol Components Type Term Accession Number							
+Study Protocol Components Type Term Source REF							
+STUDY CONTACTS
+Study Person Last Name	Zanello
+Study Person First Name	Susana
+Study Person Mid Initials	B
+Study Person Email	susana.b.zanello@nasa.gov
+Study Person Phone	
+Study Person Fax	
+Study Person Address	
+Study Person Affiliation	Univerisities Space Research Association
+Study Person Roles	Principal Investigator
+Study Person Roles Term Accession Number	
+Study Person Roles Term Source REF	
+Comment[Study Person REF]	

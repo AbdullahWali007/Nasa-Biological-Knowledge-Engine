@@ -1,0 +1,116 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	CRO	OBI	OSD
+Term Source File	http://data.bioontology.org/ontologies/EFO			http://data.bioontology.org/ontologies/OBI	https://osdr.nasa.gov/
+Term Source Version	132			29	1.0
+Term Source Description	Experimental Factor Ontology			Ontology for Biomedical Investigations	User defined terms
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-877
+Study Title	Element content of seedlings from seed and liverwort plant tissue in Apollo 15 and Apollo 16 post-flight biomedical evaluations (MMP 21243, MMP 21242)
+Study Description	Element content of seedlings from from seed and liverwort tissue in Apollo 15 and Apollo 16 post-flight biomedical evaluations (MMP 21243, MMP 21242). These findings are related to the feasibility of using plants for food in an international lunar base.
+Study Submission Date	24-Jul-2025
+Study Public Release Date	18-Sep-2025
+Study File Name	s_OSD-877.txt
+Comment[Acknowledgments]	The authors are indebted to W. E. Bolton, E. P. Carranza, J. B. Dorsey, Nina Gehring, J. R. Martin, W. B. Nance, and H. C. Sweet, for technical assistance. NASA Life Science Data Archive Media Migration Project OSDR Deputy Project Manager OSDR Curation Lead Enterprise Multimedia and Integrated Technical Services (eMITS) Data and Document Conservation eMITS Photo Operations JSC Medical Library JSC Science and Technical Information Center NASA Archives
+Comment[DOI]	10.26030/fs1a-sf92
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	
+Comment[Flight Program]	Apollo Program
+Comment[Funding]	Contract: NAS 9-10947, NSR 09-051-001, NAS 9-12050, Technical Proposal No. BB321-55-407P
+Comment[Identifiers]	
+Comment[Managing NASA Center]	Johnson Space Center (JSC)
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Project Identifier]	
+Comment[Project Link]	https://osdr.nasa.gov/bio/repo/data/experiments/OS-943
+Comment[Project Title]	OS-943
+Comment[Project Type]	Ground Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	growth condition design
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001759
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID
+Study Publication DOI
+Study Publication Author List
+Study Publication Title
+Study Publication Status
+Study Publication Status Term Accession Number
+Study Publication Status Term Source REF
+STUDY FACTORS
+Study Factor Name	Treatment	Growth Medium Provenance
+Study Factor Type	treatment	Growth Medium Provenance
+Study Factor Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0000727	https://osdr.nasa.gov/
+Study Factor Type Term Source REF	EFO	OSD
+STUDY ASSAYS
+Study Assay File Name	a_OSD-877_spectrochemical-analysis_atomic-absorption-spectroscopy_unknown.txt
+Study Assay Measurement Type	Spectrochemical Analysis
+Study Assay Measurement Type Term Accession Number	http://purl.jp/bio/4/id/200906010104449419
+Study Assay Measurement Type Term Source REF	
+Study Assay Technology Type	Atomic Absorption Spectroscopy
+Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C85574
+Study Assay Technology Type Term Source REF	NCIT
+Study Assay Technology Platform	Unknown
+STUDY PROTOCOLS
+Study Protocol Name	growth protocol	treatment protocol	sample collection	Sample Preparation	Assay Procedure	Flame Atomic Absorption Spectroscopy	Graphite Furnace Atomic Absorption Spectroscopy	Hydride Generation Atomic Absorption Spectroscopy
+Study Protocol Type	growth protocol	sample treatment protocol	sample collection	Sample Preparation	Assay Procedure	Flame Atomic Absorption Spectroscopy	Graphite Furnace Atomic Absorption Spectroscopy	Hydride Generation Atomic Absorption Spectroscopy
+Study Protocol Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0003789	http://www.ebi.ac.uk/efo/EFO_0003809						
+Study Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Study Protocol Description	"For Apollo 15 samples, the relative humidity was 50 to 90% in all growth cabinets. Seeds and seedlings experienced a 16 hr photoperiod, mixture of CWF and Sylvania W.W. Gro-Liix at 1500-300 ft-cc.  The challenge unit was an open jar with Hoagland's solution. The growth temperature was 18-27C.
+
+The growth protocol for Apollo 16 samples (Citrus limonia and Marchantia) is unknown."	"For Apollo 15 samples: Dose was 0.22 g/replicate and 10 replicates were pooled for analysis (for all samples except brussel sprouts reported from MMP 21243). Brussel sprout is distinguished from cabbage in the sample name by the acronym for the variety. Brussel sprout samples include the string 'BoleraceaeLII' to indicate Brassica oleracea 'Long Island Improvement', the strain name. Dose was 0.22 g/replicate and 6 replicates were pooled for analysis (for brussel sprout samples from MMP 21243). Treatment material was applied directly to seeds.
+
+For Apollo 16 samples (Citrus limonia and Marchantia): treatment protocol is unknown"	"For Apollo 15 samples: All values are means of triplicate determinations on one lot of seedlings for each treatment, and are expressed as micrograms of element per gram dry weight.
+
+For Apollo 16 samples (Citrus limonia and Marchantia) sample collection protocol is unknown"	All details pertaining to this assay are in the supplemental files under the Files section. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.	All details pertaining to this assay are in the supplemental files under the Files section. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.	An asterisk next to a value in the Ash Factor column indicates a questionable value due to spillage, as reported on page 48 of MMP 21243 - APOLLO 15 EXPERIMENT DATA AND SUMMARIES.pdf. All details pertaining to this assay are in the supplemental files under the Files section. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov. The elemental analysis data has been attached to this protocol because it was the most common at the time of assay. Data reported a micrograms of element per gram of dry plant weight.	All details pertaining to this assay are in the supplemental files under the Files section. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.	All details pertaining to this assay are in the supplemental files under the Files section. Hydride Generation Atomic Absorption Spectroscopy was not widely available until the mid-19070's, therefore unlikely to have been used in this study. Due to the historic nature of these experiments some metadata is absent or unclear in the available documentation. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.
+Study Protocol URI								
+Study Protocol Version								
+Study Protocol Parameters Name	relative humidity;container;Growth Medium;light cycle;light source;Mean Growth Temperature	Quantity of treatment substrate	Number of pooled replicates			Aluminum;Boron;Barium;Calcium;Cobalt;Chromium;Copper;Iron;Potassium;Magnesium;Manganese;Molybdenum;Sodium;Nickel;Phosphorus;Silicon;Titanium;Vanadium;Yttrium;Zinc;Zirconium;Scandium;Ash Factor		Supplemental Data Files
+Study Protocol Parameters Name Term Accession Number	https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0000967;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://purl.obolibrary.org/obo/NCIT_C90419;http://purl.obolibrary.org/obo/OBI_0400065;https://osdr.nasa.gov/	https://osdr.nasa.gov/	https://osdr.nasa.gov/			http://purl.bioontology.org/ontology/MESH/D000535;http://purl.bioontology.org/ontology/MESH/D001895;http://purl.bioontology.org/ontology/MESH/D001464;http://purl.bioontology.org/ontology/MESH/D002118;http://purl.bioontology.org/ontology/MESH/D003035;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://purl.bioontology.org/ontology/MESH/D008274;http://purl.bioontology.org/ontology/MESH/D008345;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://purl.bioontology.org/ontology/MESH/D012825;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://purl.bioontology.org/ontology/MESH/D014639;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;http://purl.bioontology.org/ontology/MESH/D015040;http://purl.bioontology.org/ontology/MESH/D012538;https://osdr.nasa.gov/		https://osdr.nasa.gov/
+Study Protocol Parameters Name Term Source REF	;;NCIT;NCIT;;	OSD	OSD			;;;;;NCIT;NCIT;NCIT;NCIT;;;NCIT;NCIT;NCIT;NCIT;;NCIT;;NCIT;NCIT;;;OSD		OSD
+Study Protocol Components Name								
+Study Protocol Components Type								
+Study Protocol Components Type Term Accession Number								
+Study Protocol Components Type Term Source REF								
+STUDY CONTACTS
+Study Person Last Name	Walkinshaw	Johnson	Bozarth	Venketeswaran	Covington
+Study Person First Name	Charles	Pratt	Gene	S.	P.
+Study Person Mid Initials	H	H	A		A
+Study Person Email					
+Study Person Phone					
+Study Person Fax					
+Study Person Address					
+Study Person Affiliation	Principal Plant Pathologist, U. S. Department of Agriculture, Forest Service, and NASA, Manned Spacecraft Center	Group Supervisor, Chemical Analysis Laboratory, Brown and Northrop	Senior Research Analyst, Northrop Services Inc.	Lunar Receiving Laboratory, Lyndon B. Johnson Space Center	Lunar Receiving Laboratory, Lyndon B. Johnson Space Center
+Study Person Roles	Co-investigator	supervision role	formal analysis role	investigation role	Co-investigator
+Study Person Roles Term Accession Number	http://purl.obolibrary.org/obo/NCIT_C51812	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.obolibrary.org/obo/NCIT_C51812
+Study Person Roles Term Source REF	NCIT	CRO	CRO	CRO	NCIT

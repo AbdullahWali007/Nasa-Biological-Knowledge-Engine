@@ -1,0 +1,113 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	MESH	BIOMO	EFO	ROO	BAO	OBI	NCBITAXON	RBO
+Term Source File	http://data.bioontology.org/ontologies/MESH	http://data.bioontology.org/ontologies/BIOMO	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/ROO	http://data.bioontology.org/ontologies/BAO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/NCBITAXON	
+Term Source Version	12	1	158	3	27	31	8	
+Term Source Description	Medical Subject Headings	Biological Observation Matrix Ontology	Experimental Factor Ontology	Radiation Oncology Ontology	BioAssay Ontology	Ontology for Biomedical Investigations	National Center for Biotechnology Information (NCBI) Organismal Classification	
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-155
+Study Title	Radiation responses in peripheral white blood cells of smokers and non-smokers
+Study Description	Understanding the possible impact of potential confounding factors is necessary for any approach to radiation biodosimetry. Potential confounding factors have not been fully addressed for gene expression-based biodosimetry approaches, such as we are developing. To begin addressing this need, we have used an ex vivo irradiated peripheral blood cell model to investigate the potential effect of smoking on the global radiation gene expression response, and looked for genes that respond to radiation differently in smokers and non-smokers, and also in males and females. The results indicate that only a small number of genes may be significantly confounded by either factor, supporting the idea of developing peripheral blood gene expression strategies for radiation biodosimetry. Blood from each of 24 different donors was exposed to four doses of ionizing radiation (0, 0.1, 0.5, or 2 Gy) and analyzed using single-color microarray hybridization. The donors represented equal numbers of male and female smokers (1 or more packs a day) and non-smokers. There are 95 data sets in the study as the sample from one of the female smokers exposed to 2 Gy was lost.
+Study Submission Date	19-Mar-2011
+Study Public Release Date	19-Mar-2011
+Study File Name	s_OSD-155.txt
+Comment[Acknowledgments]	We thank the nursing staff of the Department of Radiation Oncology at the Columbia University Medical Center for drawing blood from our volunteers. Analyses were performed using BRB-ArrayTools developed by Dr. Richard Simon and Amy Peng Lam.
+Comment[DOI]	10.26030/9f0x-qz61
+Comment[Data Source Accession]	E-GEOD-23515
+Comment[Data Source Link]	http://www.ebi.ac.uk/arrayexpress/experiments/E-GEOD-23515/
+Comment[Experiment Platform]	
+Comment[Flight Program]	
+Comment[Funding]	This work was supported by the Center for High-Throughput Minimally-Invasive Radiation Biodosimetry, National Institute of Allergy and Infectious Diseases grant No. U19 AI067773.
+Comment[Identifiers]	
+Comment[Managing NASA Center]	
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Project Identifier]	Gamma_Irradiation, Low_LET_Irradiation, Low_Dose_Irradiation, High_Dose_Irradiation
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Ground Study
+Comment[Space Program]	NIAID
+Comment[Study Funding Agency]	
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	transcription profiling
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001032
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID	21801107
+Study Publication DOI	10.3109/09553002.2011.568574
+Study Publication Author List	Paul S, Amundson SA.
+Study Publication Title	Gene expression signatures of radiation exposure in peripheral white blood cells of smokers and non-smokers.
+Study Publication Status	Published
+Study Publication Status Term Accession Number	
+Study Publication Status Term Source REF	
+Comment[Study Publication Link]	
+STUDY FACTORS
+Study Factor Name	Smoking Status	Absorbed Radiation Dose	Ionizing Radiation
+Study Factor Type	Smoking	absorbed radiation dose	ionizing radiation
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D012907	http://purl.obolibrary.org/obo/RBO_00005010	http://purl.obolibrary.org/obo/RBO_00000116
+Study Factor Type Term Source REF	MESH	RBO	RBO
+STUDY ASSAYS
+Study Assay File Name	a_OSD-155_transcription-profiling_dna-microarray_Agilent.txt
+Study Assay Measurement Type	transcription profiling
+Study Assay Measurement Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0000424
+Study Assay Measurement Type Term Source REF	OBI
+Study Assay Technology Type	DNA microarray
+Study Assay Technology Type Term Accession Number	http://purl.obolibrary.org/obo/OBI_0400148
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	Agilent
+STUDY PROTOCOLS
+Study Protocol Name	growth protocol	irradiation protocol	Nucleic Acid Extraction Protocol	Labeling	nucleic acid hybridization	feature extraction	data collection	normalization data transformation	GeneLab microarray data processing protocol
+Study Protocol Type	growth protocol	acute	nucleic acid extraction protocol	labeling	nucleic acid extraction protocol	feature extraction	Data Collection	normalization data transformation protocol	data transformation
+Study Protocol Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0003789	http://purl.obolibrary.org/obo/PATO_0000389	http://www.ebi.ac.uk/efo/EFO_0002944		http://www.ebi.ac.uk/efo/EFO_0002944	https://osdr.nasa.gov/	http://purl.bioontology.org/ontology/MESH/D003625	http://www.ebi.ac.uk/efo/EFO_0003816	http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF	EFO	RBO	EFO	RBO	EFO	EFO	MESH	EFO	OBI
+Study Protocol Description	After irradiation, blood samples were diluted 1:1 with RPMI 1640 medium (Mediatech, Herndon, VA) supplemented with 10% heat-inactivated fetal bovine serum (HyClone, Logan, UT), as previously described (Grace et al., Int J Radiat Biol 2002; 78:1011-21; PMID 12456288), and were incubated for 6 h  at 37ºC in a humidified incubator with 5% CO2.	Peripheral blood from smoker and non-smoker volunteers was drawn into 0.105 mol/l sodium citrate Vacutainer tubes (Becton Dickinson and Company, Franklin Lakes, NJ). The blood was divided into 3-ml aliquots and exposed at a rate of 0.82 Gy/min to 0, 0.1, 0.5, 2 Gy gamma-rays using a Gammacell-40 137Cs irradiator (AECL, Ottawa, Ontario, Canada). Cesium-137 produces gamma rays with an energy of 0.662 MeV and has a half-life of 30.1 years. Ionizing radiation energy values were added by GeneLab.	The RNA was prepared using the PerfectPure RNA blood kit (PerfectPure, Gaithersburg, MD) following the manufacturer’s recommendations. This protocol differentially lyses red and white blood cells in whole blood to preferentially deplete globin mRNA. Remaining globin mRNA was further reduced using GLOBINclear (Ambion Inc., Austin, TX) specifically to remove both a- and b-globin. The RNA was quantified using a NanoDrop-1000 spectrophotometer, and quality was monitored with the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA).	Cyanine-3 (Cy3) labeled cRNA was prepared from 0.5 ug RNA using the One-Color Qucik Amp Labeling kit (Agilent) according to the manufacturer's instructions, followed by RNAeasy column purification (QIAGEN, Valencia, CA).  Dye incorporation and cRNA yield were checked with the NanoDrop ND-1000 Spectrophotometer.	1.65 ug of Cy3-labelled cRNA (specific activity greater than 10.0 pmol Cy3/ug cRNA) was fragmented at 60C for 30 minutes in a reaction volume of 55 ul containing 1x Agilent fragmentation buffer and 2x Agilent blocking agent following the manufacturers instructions. On completion of the fragmentation reaction, 55 ul of 2x GEx hybridization buffer HI-RPM was added to the fragmentation mixture and hybridized to Agilent Whole Human Genome Oligo Microarrays (G4112F) for 17 hours at 65°C in a rotating Agilent hybridization oven.  After hybridization, microarrays were washed 1 minute at room temperature with GE Wash Buffer 1 (Agilent) and 1 minute with 37°C GE Wash buffer 2 (Agilent).	The scanned images were analyzed with Feature Extraction Software 9.1.3.1 (Agilent) using default parameters (protocol GE1-v1_91 and Grid: 014850_D_20070207) to obtain background subtracted and spatially detrended green Processed Signal intensities.  Features flagged in Feature Extraction as Feature Non-uniform outliers or Features not Positive and significant were excluded. Log2 transformed signal intensities were normalized to median array for all samples.	Slides were scanned immediately after washing on the Agilent DNA Microarray Scanner (G2505B) using one color scan setting for 4x44k array slides (Scan setting with eXtended dynamic range, Scan area 61x21.6 mm, Scan resolution 5um, Dye channel is set to Green and Green PMT is set to XDR Hi 100% and XDR Lo 10%).	Log2 transformed signal intensity normalized to median array	Data were processed as described in GL-DPPD-7112 (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Agilent_1-channel/Pipeline_GL-DPPD-7112_Versions/GL-DPPD-7112.md), using NF_MAAgilent1ch version 1.0.4 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAgilent1ch_1.0.4/Microarray/Agilent_1-channel/Workflow_Documentation/NF_MAAgilent1ch). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.1). The raw array data files were loaded into R (version 4.1.3) using limma (version 3.50.3). Raw data quality assurance density, pseudo image, MA, and foreground-background plots were generated using limma (version 3.50.3), and boxplots were generated using ggplot2 (version 3.4.0). The raw intensity data was background corrected and normalized across arrays via the limma (version 3.50.3) quantile method. Normalized data quality assurance density, pseudo image, and MA plots were generated using limma (version 3.50.3), and boxplots were generated using ggplot2 (version 3.4.0). Ensembl gene ID mappings were retrieved for each probe using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probe to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Hs.eg.db (version 3.15.0).
+Study Protocol URI									
+Study Protocol Version									
+Study Protocol Parameters Name		ionizing radiation energy;absorbed radiation dose rate;exposure duration;ionizing radiation categorized by source;ionizing radiation device							Raw Intensities Table;Normalized Expression Table;differential expression analysis data
+Study Protocol Parameters Name Term Accession Number		http://purl.obolibrary.org/obo/RBO_00005012;http://purl.obolibrary.org/obo/RBO_00005011;http://purl.obolibrary.org/obo/NCIT_C83280;http://purl.obolibrary.org/obo/RBO_00000001;http://purl.obolibrary.org/obo/RBO_00005070							https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0002584
+Study Protocol Parameters Name Term Source REF		RBO;RBO;;RBO;RBO							;;OBI
+Study Protocol Components Name									
+Study Protocol Components Type									
+Study Protocol Components Type Term Accession Number									
+Study Protocol Components Type Term Source REF									
+STUDY CONTACTS
+Study Person Last Name	Amundson	Sunirmal
+Study Person First Name	Sally	Paul
+Study Person Mid Initials	A	
+Study Person Email	saa2108@columbia.edu	
+Study Person Phone		
+Study Person Fax		
+Study Person Address	Center for Radiological Research, Columbia University, 630 W. 168th St, New York, NY, USA	
+Study Person Affiliation	Columbia University	
+Study Person Roles	submitter	
+Study Person Roles Term Accession Number		
+Study Person Roles Term Source REF		
+Comment[Study Person REF]		

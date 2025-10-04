@@ -1,0 +1,112 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	NCBITAXON	EFO	OBI	NCIT	MESH	SO	UO
+Term Source File	http://data.bioontology.org/ontologies/NCBITAXON	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/NCIT	http://data.bioontology.org/ontologies/MESH	http://data.bioontology.org/ontologies/SO	http://data.bioontology.org/ontologies/UO
+Term Source Version	2	111	32	52	5	229	43
+Term Source Description	National Center for Biotechnology Information (NCBI) Organismal Classification	Experimental Factor Ontology	Ontology for Biomedical Investigations	National Cancer Institute Thesaurus	Medical Subject Headings	Sequence Types and Features Ontology	Units of Measurement Ontology
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-91
+Study Title	A study of gene expression influenced by simulated microgravity in human lymphoblastoid cells
+Study Description	Here, in this study we systematically examined the patterns of DNA methylation and hydroxy-methylation with its functional implications in gene regulation for the cultured TK6 lymphoblastoid cells upon exposure to micro-gravity conditions. The results reported here indicate that simulated microgravity alters methylation patterns in a limited way and subsequently the expression of genes involved in stress response like ATF3, FBXO17, MAP3K13 and VCL in TK6 cells. Overall design: Examination of RNA-seq with 2 replicates each for 1 cell type
+Study Submission Date	13-Feb-2015
+Study Public Release Date	02-Feb-2016
+Study File Name	s_OSD-91.txt
+Comment[Acknowledgments]	
+Comment[DOI]	10.26030/2sn1-3x63
+Comment[Data Source Accession]	GSE65943
+Comment[Data Source Link]	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65943
+Comment[Experiment Platform]	
+Comment[Flight Program]	
+Comment[Funding]	The authors would like to acknowledge the following agencies for their support in funding this study: a) NASA (NNX12AN09G); b) NIH, NCI R25CA128770 Cancer Prevention Internship Program; c) Indiana CTSI (TR000006); d) W.M. Keck Foundation; e) Purdue Center for Cancer Research (P30CA023168).
+Comment[Identifiers]	
+Comment[Managing NASA Center]	ARC
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Project Identifier]	Simulated_Microgravity
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Ground Study
+Comment[Space Program]	
+Comment[Study Grant Number]	NNX12AN09G
+STUDY DESIGN DESCRIPTORS
+Study Design Type	transcription profiling by high throughput sequencing
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0002770
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID	26820575
+Study Publication DOI	10.1371/journal.pone.0147514
+Study Publication Author List	Chowdhury B, Seetharam A, Wang Z, Liu Y, Lossie AC, Thimmapuram J, Irudayaraj J.
+Study Publication Title	A Study of Alterations in DNA Epigenetic Modifications (5mC and 5hmC) and Gene Expression Influenced by Simulated Microgravity in Human Lymphoblastoid Cells.
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	https://www.ncbi.nlm.nih.gov/pubmed/26820575
+STUDY FACTORS
+Study Factor Name	Microgravity Simulation
+Study Factor Type	Weightlessness Simulation
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D018474
+Study Factor Type Term Source REF	MESH
+STUDY ASSAYS
+Study Assay File Name	a_OSD-91_transcription-profiling_rna-sequencing-(rna-seq)_Illumina.txt
+Study Assay Measurement Type	transcription profiling
+Study Assay Measurement Type Term Accession Number	obo:OBI_0000424
+Study Assay Measurement Type Term Source REF	OBI
+Study Assay Technology Type	RNA Sequencing (RNA-Seq)
+Study Assay Technology Type Term Accession Number	obo:OBI_0001271
+Study Assay Technology Type Term Source REF	OBI
+Study Assay Technology Platform	Illumina
+STUDY PROTOCOLS
+Study Protocol Name	growth protocol	treatment protocol	nucleic acid extraction	library construction	nucleic acid sequencing	GeneLab RNAseq data processing protocol
+Study Protocol Type	growth protocol	treatment protocol	nucleic acid extraction	library construction	nucleic acid sequencing	data transformation
+Study Protocol Type Term Accession Number						http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF						OBI
+Study Protocol Description	TK6 human lymphoblastoid cells (ATCC, Manassas, VA) were maintained in the log phase of cell growth by culturing in RPMI-1640 (Life Technologies, Grand Island, NY) medium supplemented with 10% Fetal Bovine Serum (Atlanta Biologicals, Flowery Branch, GA) and 1% Penicillin/Streptomycin (Life Technologies, Grand Island, NY) at 37C in 5% CO2 and 95% air.	For ground-based simulation of microgravity, HARV rotating suspension culture bioreactors (Synthecon, Houston, TX) were used. Actively growing (96-98% viable) TK6 cells were seeded in the bioreactor at 2 X 10^5 cells/ml and rotated at 12 rpm/min. For control, cells (at the same cellular density i.e 2 X 10^5 cells/ml) were maintained in bioreactors in a normal gravity (static) condition as controls	Total RNA was extracted from cells subjected to simulated microgravity and static control using RNA-STAT-60 (Tel-Test,Inc., Friendswood, TX) using the manufacturer's instructions. Briefly, 1ml of RNA-STAT solution was added per 10^6 cells and homogenized for 5 minutes over ice. 1ml of chloroform was added, contents shaken vigorously and centrifuged at 12,000g at 4C for 15 minutes. The aqueous solution was transferred to corex tube (Corning Inc., Lowell, MA) and 0.8 ml isopropanol added. After incubation of 10 minutes, the contents were centrifuged at 12,000g for another 10 minutes to precipitate the RNA. The RNA pellet was washed with 75% ethanol and centrifuged at 7,500g for 5 minutes at 4C. The ethanol was aspirated and the RNA pellet dried. The RNA pellet was finally resuspended in DEPC water and submitted to the Purdue Genomic Center for conversion into cDNA, sonication, adapter ligation and sequencing.	RNA was converted into cDNA and was end-repaired using repair solution (combination of T4 DNA polymerase, E. coli DNA Pol I large fragment and T4 polynucleotide kinase). A-tailing was obtained by incubating the end repaired DNA with dA-tailing mix. Blunt end ligation was performed by incubating the A-tailed DNA samples (1 ug) with adapters (IDT Inc., Coralville, IA), unmethylated version of Truseq adapters (Illumina Inc., San Diego, CA) for multiplexing. After adapter ligation DNA was PCR amplified with Illumina primers for 15 cycles and library fragments of ~250 bp (insert plus adaptor and PCR primer sequences) were band isolated from an agarose gel. The purified DNA was captured on an Illumina flow cell for cluster generation.	Libraries were sequenced on the Illumina HiSeq2000 following the manufacturer's protocols.	Raw fastq files were assessed for % rRNA using HTStream SeqScreener (version 1.0.0) and filtered using Trim Galore! (version 0.6.2). Raw and trimmed fastq file quality was evaluated with FastQC (version 0.11.8), and MultiQC (version 1.7) was used to generate MultiQC reports. Homo sapiens STAR and RSEM references were built using STAR (version 2.7.1a) and RSEM (version 1.3.1), respectively, Ensembl release 98, genome version GRCh38 (Homo_sapiens.GRCh38.dna.toplevel.fa), and the following gtf annotation file: Homo_sapiens.GRCh38.98.gtf. Trimmed reads were aligned to the Homo sapiens STAR reference with STAR (version 2.7.1a) and aligned reads were quantified using RSEM (version 1.3.1). The runsheet was generated with dp_tools (version 1.1.8) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0). Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the GeneLab Reference Annotations pipeline (https://github.com/nasa/GeneLab_Data_Processing/blob/master/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Hs.eg.db (version 3.15.0). Processing scripts used can be found on GitHub here: https://github.com/nasa/GeneLab_Data_Processing/tree/master/RNAseq/GLDS_Processing_Scripts/GLDS-91/GLDS_version_5
+Study Protocol URI						
+Study Protocol Version						
+Study Protocol Parameters Name	Sample Media Information;Growth Temperature	duration	QA Instrument;QA Assay;QA Score	library layout;stranded	sequencing instrument	Merged Sequence Data File;rRNA Contamination;Read Depth;Merged Sequence Data Fastqc File;Merged Sequence Data Multiqc File;trimmed sequence data;Trimmed Sequence Data Fastqc File;Trimmed Sequence Data Multiqc File;Trimmed Report;aligned sequence data;Alignment Logs;Raw Counts Data File;Normalized Counts Data File;differential expression analysis data transformation
+Study Protocol Parameters Name Term Accession Number	;	http://www.ebi.ac.uk/efo/EFO_0000433	;;	;		;;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;;;http://purl.obolibrary.org/obo/OBI_0002569;;;;http://purl.obolibrary.org/obo/OBI_0002580;;;;http://purl.obolibrary.org/obo/OBI_0000650
+Study Protocol Parameters Name Term Source REF	;	EFO	;;	;		;;NCIT;;;OBI;;;;OBI;;;;OBI
+Study Protocol Components Name						
+Study Protocol Components Type						
+Study Protocol Components Type Term Accession Number						
+Study Protocol Components Type Term Source REF						
+STUDY CONTACTS
+Study Person Last Name	Irudayaraj
+Study Person First Name	Joseph
+Study Person Mid Initials	
+Study Person Email	josephi@purdue.edu
+Study Person Phone	765-494-0388
+Study Person Fax	
+Study Person Address	Bindley Bioscience Center 225 S. University Street West Lafayette, IN
+Study Person Affiliation	Purdue University
+Study Person Roles	principal investigator role
+Study Person Roles Term Accession Number	http://purl.obolibrary.org/obo/OBI_0000103
+Study Person Roles Term Source REF	OBI
+Comment[Study Person REF]	

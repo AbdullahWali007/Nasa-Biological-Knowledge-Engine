@@ -1,0 +1,195 @@
+{
+  "OSD-91": {
+    "organism": "human lymphoblastoid cells",
+    "assay_types": ["RNA-Seq", "epigenetics / methylation"],
+    "folder": "data/OSD-91",
+    "files": {
+      "investigation": "data/OSD-91/i_Investigation.txt",
+      "samples": "data/OSD-91/s_OSD-91.txt",
+      "assays": [
+        "data/OSD-91/a_OSD-91_transcription-profiling_rna-sequencing.txt",
+        "data/OSD-91/a_OSD-91_whole-genome-bisulfite-sequencing.txt"
+      ]
+    },
+    "description": "Study of epigenetic modifications and gene expression in human lymphoblastoid cells under simulated microgravity"  
+  },
+  "OSD-100": {
+    "organism": "mouse",
+    "assay_types": ["RNA-Seq", "WGBS / methylation"],
+    "folder": "data/OSD-100",
+    "files": {
+      "investigation": "data/OSD-100/i_Investigation.txt",
+      "samples": "data/OSD-100/s_OSD-100.txt",
+      "assays": [
+        "data/OSD-100/a_OSD-100_transcription-profiling_rna-sequencing.txt",
+        "data/OSD-100/a_OSD-100_whole-genome-bisulfite-sequencing.txt"
+      ]
+    },
+    "description": "Mouse eye tissue transcriptomics & methylation from spaceflight vs ground control"
+  },
+  "OSD-155": {
+    "organism": "human endothelial cells",
+    "assay_types": ["RNA-Seq"],
+    "folder": "data/OSD-155",
+    "files": {
+      "investigation": "data/OSD-155/i_Investigation.txt",
+      "samples": "data/OSD-155/s_OSD-155.txt",
+      "assays": [
+        "data/OSD-155/a_OSD-155_transcription-profiling_rna-sequencing.txt"
+      ]
+    },
+    "description": "Gene expression profiling of human endothelial cells under microgravity"
+  },
+  "OSD-162": {
+    "organism": "Arabidopsis (plant)",
+    "assay_types": ["RNA-Seq"],
+    "folder": "data/OSD-162",
+    "files": {
+      "investigation": "data/OSD-162/i_Investigation.txt",
+      "samples": "data/OSD-162/s_OSD-162.txt",
+      "assays": [
+        "data/OSD-162/a_OSD-162_transcription-profiling_rna-sequencing.txt"
+      ]
+    },
+    "description": "Plant (Arabidopsis) transcriptomics in spaceflight environment"
+  },
+  "OSD-209": {
+    "organism": "yeast (Saccharomyces cerevisiae)",
+    "assay_types": ["RNA-Seq"],
+    "folder": "data/OSD-209",
+    "files": {
+      "investigation": "data/OSD-209/i_Investigation.txt",
+      "samples": "data/OSD-209/s_OSD-209.txt",
+      "assays": [
+        "data/OSD-209/a_OSD-209_transcription-profiling_rna-sequencing.txt"
+      ]
+    },
+    "description": "Yeast gene expression in microgravity / spaceflight conditions"
+  },
+  "OSD-402": {
+    "organism": "mouse",
+    "assay_types": ["RNA-Seq"],
+    "folder": "data/OSD-402",
+    "files": {
+      "investigation": "data/OSD-402/i_Investigation.txt",
+      "samples": "data/OSD-402/s_OSD-402.txt",
+      "assays": [
+        "data/OSD-402/a_OSD-402_transcription-profiling_rna-sequencing.txt"
+      ]
+    },
+    "description": "Rodent Research Reference Mission — mouse transcriptomics"
+  },
+  "OSD-856": {
+    "organism": "unknown",
+    "assay_types": [],
+    "folder": "data/OSD-856",
+    "files": {
+      "investigation": "data/OSD-856/i_Investigation.txt",
+      "samples": "data/OSD-856/s_OSD-856.txt",
+      "assays": []
+    },
+    "description": "Unknown / fill in after inspect"
+  },
+  "OSD-883": {
+    "organism": "unknown",
+    "assay_types": [],
+    "folder": "data/OSD-883",
+    "files": {
+      "investigation": "data/OSD-883/i_Investigation.txt",
+      "samples": "data/OSD-883/s_OSD-883.txt",
+      "assays": []
+    },
+    "description": "Unknown / fill in after inspect"
+  },
+  "OSD-684": {
+    "organism": "human myoblasts",
+    "assay_types": ["RNA-Seq"],
+    "folder": "data/OSD-684",
+    "files": {
+      "investigation": "data/OSD-684/i_Investigation.txt",
+      "samples": "data/OSD-684/s_OSD-684.txt",
+      "assays": [
+        "data/OSD-684/a_OSD-684_transcription-profiling_rna-sequencing-(rna-seq)_illumina.txt"
+      ]
+    },
+    "description": "Human skeletal muscle tissue chip autonomous payload reveals changes in fiber type and metabolic gene expression due to spaceflight"
+  },
+  "OSD-353": {
+    "organism": "human",
+    "assay_types": ["proteomics / mass spectrometry"],
+    "folder": "data/OSD-353",
+    "files": {
+      "investigation": "data/OSD-353/i_Investigation.txt",
+      "samples": "data/OSD-353/s_OSD-353.txt",
+      "assays": [
+        "data/OSD-353/a_OSD-353_protein-expression-profiling_mass-spectrometry_MaXis 4G.txt"
+      ]
+    },
+    "description": "The Effects of Spaceflight Factors on the Human Plasma Proteome, Including Both Real Space Missions and Ground-Based Experiments"
+  },
+  "OSD-87": {
+    "organism": "mouse",
+    "assay_types": ["DNA microarray"],
+    "folder": "data/OSD-87",
+    "files": {
+      "investigation": "data/OSD-87/i_Investigation.txt",
+      "samples": "data/OSD-87/s_OSD-87.txt",
+      "assays": [
+        "data/OSD-87/a_OSD-87_transcription-profiling_dna-microarray_affymetrix.txt"
+      ]
+    },
+    "description": "Spaceflight effects on the mouse retina: Histological, gene expression and epigenetic changes after flight on STS-135"
+  },
+  "OSD-776": {
+    "organism": "mouse",
+    "assay_types": ["flow cytometry"],
+    "folder": "data/OSD-776",
+    "files": {
+      "investigation": "data/OSD-776/i_Investigation.txt",
+      "samples": "data/OSD-776/s_OSD-776.txt",
+      "assays": [
+        "data/OSD-776/a_OSD-776_flow-cytometry_flow-cytometry_bd_lsrii.txt"
+      ]
+    },
+    "description": "The impact of deep space radiation on cognitive performance: From biological sex to biomarkers to countermeasures (Flow Cytometry, Blood)"
+  },
+  "OSD-867": {
+    "organism": "human mesenchymal stem/stromal cells",
+    "assay_types": ["RNA-Seq"],
+    "folder": "data/OSD-867",
+    "files": {
+      "investigation": "data/OSD-867/i_Investigation.txt",
+      "samples": "data/OSD-867/s_OSD-867.txt",
+      "assays": [
+        "data/OSD-867/a_OSD-867_transcription-profiling_rna-sequencing-(rna-seq)_Illumina.txt"
+      ]
+    },
+    "description": "Impact of spaceflight on gene expression in cultured human mesenchymal stem/stromal cell"
+  },
+  "OSD-772": {
+    "organism": "microbiota (Capsicum annuum)",
+    "assay_types": ["16S amplicon sequencing"],
+    "folder": "data/OSD-772",
+    "files": {
+      "investigation": "data/OSD-772/i_Investigation.txt",
+      "samples": "data/OSD-772/s_OSD-772.txt",
+      "assays": [
+        "data/OSD-772/a_OSD-772_amplicon-sequencing_16s_Illumina.txt"
+      ]
+    },
+    "description": "PH-04 Chile Peppers in Space"
+  },
+  "OSD-877": {
+    "organism": "plants (various seedlings and liverwort)",
+    "assay_types": ["atomic absorption spectroscopy"],
+    "folder": "data/OSD-877",
+    "files": {
+      "investigation": "data/OSD-877/i_Investigation.txt",
+      "samples": "data/OSD-877/s_OSD-877.txt",
+      "assays": [
+        "data/OSD-877/a_OSD-877_spectrochemical-analysis_atomic-absorption-spectroscopy_unknown.txt"
+      ]
+    },
+    "description": "Element content of seedlings from seed and liverwort plant tissue in Apollo 15 and Apollo 16 post-flight biomedical evaluations (MMP 21243, MMP 21242)"
+  }
+}

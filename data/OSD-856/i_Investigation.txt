@@ -1,0 +1,114 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	CRO	OBI
+Term Source File	http://data.bioontology.org/ontologies/EFO			http://data.bioontology.org/ontologies/OBI
+Term Source Version	132			29
+Term Source Description	Experimental Factor Ontology			Ontology for Biomedical Investigations
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-856
+Study Title	Effect of varying amounts of simulated lunar soil batch #005 upon growth of lettuce explants
+Study Description	The following general conclusions can be made concerning the use of tissue culture for assaying the effects of mineral elements from simulated lunar soil or other mineral samples: The method used here is a very sensitive one for showing that soluble materials are reaching the tissue explant. The effects found (inhibiting) are very probably caused by excess toxic materials or competition of non-essential elements with essential elements rather than pH changes because previously pH has been found- to have relatively little effect over a wide range. Any stimulatory effect of the simulated lunar soil will probably appear at concentrations below those used in these experiments. If this is the case, the method is much less wasteful of mineral materials than methods in which pre-grown callus is treated with mineral materials.  Measurements of uptake of minerals will be difficult in this system because of the relatively small growth obtainable from the tissue and also because of the apparently large background of minerals contributed by the purified agar.
+Study Submission Date	15-May-2025
+Study Public Release Date	30-Jul-2025
+Study File Name	s_OSD-856.txt
+Comment[Acknowledgments]	The authors are indebted to W. E. Bolton, E. P. Carranza, J. B. Dorsey, Nina Gehring, J. R. Martin, W. B. Nance, and H. C. Sweet, for technical assistance. NASA Life Science Data Archive Media Migration Project OSDR Deputy Project Manager OSDR Curation Lead Enterprise Multimedia and Integrated Technical Services (eMITS) Data and Document Conservation eMITS Photo Operations JSC Medical Library JSC Science and Technical Information Center NASA Archives
+Comment[DOI]	10.26030/mzxb-gk82
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	
+Comment[Flight Program]	Apollo Program
+Comment[Funding]	Contract: NAS 9-10947, NSR 09-051-001, NAS 9-12050, Technical Proposal No. BB321-55-407P
+Comment[Identifiers]	
+Comment[Managing NASA Center]	Johnson Space Center (JSC)
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Project Identifier]	Simulated_Environmental_Factors
+Comment[Project Link]	https://osdr.nasa.gov/bio/repo/data/experiments/OS-944
+Comment[Project Title]	OS-944
+Comment[Project Type]	Ground Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	growth condition design
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001759
+Study Design Type Term Source REF	EFO
+STUDY PUBLICATIONS
+Study PubMed ID	
+Study Publication DOI	
+Study Publication Author List	R.S. Halliwell
+Study Publication Title	Analytical and Radio-Histo-Chemical Experiments of Plants and Tissue Culture Cells Treated with Lunar and Terrestrial Materials
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	https://ntrs.nasa.gov/citations/19730022256
+STUDY FACTORS
+Study Factor Name	Treatment	Strain
+Study Factor Type	treatment	strain
+Study Factor Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0000727	http://www.ebi.ac.uk/efo/EFO_0005135
+Study Factor Type Term Source REF	EFO	EFO
+STUDY ASSAYS
+Study Assay File Name	a_OSD-856_germination-and-growth-assesment_plant-material-biomass_lunar receiving laboratory.txt
+Study Assay Measurement Type	Germination and Growth Assesment
+Study Assay Measurement Type Term Accession Number	http://purl.obolibrary.org/obo/GO_0009791
+Study Assay Measurement Type Term Source REF	
+Study Assay Technology Type	Plant Material Biomass
+Study Assay Technology Type Term Accession Number	http://purl.dataone.org/odo/ECSO_00001148
+Study Assay Technology Type Term Source REF	
+Study Assay Technology Platform	Lunar Receiving Laboratory
+STUDY PROTOCOLS
+Study Protocol Name	seed sterilization	growth protocol	treatment protocol	sample collection	Seed Germination	Biomass Assesment
+Study Protocol Type	seed sterilization protocol	growth protocol	sample treatment protocol	sample collection	Seed Germination	Biomass Assesment
+Study Protocol Type Term Accession Number	https://osdr.nasa.gov/	http://www.ebi.ac.uk/efo/EFO_0003789	http://www.ebi.ac.uk/efo/EFO_0003809			
+Study Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO
+Study Protocol Description	"Materials required are 5 or 10ml disposable plastic syringes, a piece of fine mesh nylon netting, a length of 1/8' OD vinyl tubing, a 2 liter filter flask, a one hole rubber stopper to fit the flask and a 1 ml pipette. The inside of the syringe barrel, but not the plunger, is thoroughly cleaned with chloroform and then a circle of nylon netting is welded to the inside of the closed end using a small heated rod. A short piece of vinyl tubing is pushed over the fitting leaving approximately 3/16 inch projecting beyond the tip. The plunger is replaced in the barrel. The pipette is inserted in the rubber stopper and adjusted so that when the flask is tightly stoppered the mouthpiece end of the pipette is just above the bottom of the flask. The delivery tip should then project approximately 1 inch above the top of the stopper. The flask containing 1500 ml of distilled water is autoclaved for 1 hour. The stopper and
+pipette tip are covered with aluminum foil and the side arm of the flask is plugged with cotton. The syringe is loaded with 250 mg of seeds (200-250 lettuce seeds). A solution of hypochlorite is prepared in a 250
+ml beaker. Sterilization is initiated by drawing the solution into the syringe and shaking rapidly to wet the seeds. After 1/2 minute the solution is expelled and replaced with fresh solution. Within the following 2 minutes
+this is repeated four times. Seeds treated longer than 2-5 minutes are given a final change of the solution and allowed to sit until the end of treatment. To rinse the hypochlorite is expelled and distilled water is drawn from the distilled water flask through the projecting pipette tip, the vinyl tubing serving as a sealing collar. Rinsing is repeated 6 times over a period of 10 minutes."	The following lettuce varieties were used: 8 - Grand Rapids, 9 Ford-Hook,11-Oak Leaf, 17 -Prize Head. Explants were from seeds sterilized (described in seed sterilization protocol) and planted on agar prepared in Hoagland's  2 solution. Seedlings were allowed to grow 5-15 days before use. Whole leaves or parts of leaves were used. All plant parts were transferred to the surface of the tissue culture medium using aseptic technique but without further surface sterilization. Media used was Murashige and Skoogs medium as modified by S. Venketeswaran (SV medium). The basic SV and MS media are described in the NASA Protocol manual MSC 03267.  'SV basal medium' consisted of all salts hormones and vitamins of SV medium without the complex additives coconut milk and yeast extract and without ascorbic acid. Trace elements and vitamins were used in normal concentration. Solid medium was prepared with 1% purified Difco agar. Plastic 15 by 100 mm sterile disposable petri dishes were used for all experiments with growth on solid medium. Edges were sealed with scotch tape to retard desiccation. Formation of callus was allowed to progress for 4-6 weeks weeks at 24C under fluorescent light.' Growth was evaluated by fresh weight.	Simulated lunar soil lot  005 was weighed in varying amounts into capped polypropylene tubes and autoclaved at 1 psi.for twenty minutes. Prior to pouring of the medium (20 ml/ plate) the contents of individual tubes were emptied into the plates and mixed into the ungelled medium by gentle swirling. Leaf explants averaging 10 mg were planted on the solidified agar at the rate of 3 explants per plate.	Fresh total biomass was assessed for each sample. It is unclear if the tissue culture samples were preserved after being weighed. Due to the historic nature of these experiments some metadata is absent or unclear in the available documentation. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.	Germination was considered to have occurred when the seed coat had ruptured and a visible root tip had emerged. Percentage is based on counts of 200 seeds. Simulated lunar soil treatment was applied to 4 week old leaf extant culture only. Seeds were not exposed to any lunar soil treatment.	Fresh (wet) total biomass was assessed for each sample. Due to the historic nature of these experiments some metadata is absent or unclear in the available documentation. At OSDR we welcome contributions from our community. If you review the material associated with this dataset and have a suggestion for an improvement, correction or addition please let us know at arc-dl-osdr-data@mail.nasa.gov.
+Study Protocol URI						
+Study Protocol Version						
+Study Protocol Parameters Name		Growth Time;Growth Medium;Growth Temperature;Quantity of non-treatment medium;light source		Sample Preservation Method;Sample Storage Temperature	Seed Sanitization;Substrate Type;Mean Germination Temperature;Number Of Seeds Per Container	Age At Sample Harvest;Total Wet Biomass
+Study Protocol Parameters Name Term Accession Number		https://osdr.nasa.gov/;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0400065		https://genelab-data.ndc.nasa.gov/;https://genelab-data.ndc.nasa.gov/	;;;	;
+Study Protocol Parameters Name Term Source REF		;NCIT;;;OBI		;	;;;	;
+Study Protocol Components Name						
+Study Protocol Components Type						
+Study Protocol Components Type Term Accession Number						
+Study Protocol Components Type Term Source REF						
+STUDY CONTACTS
+Study Person Last Name	Walkinshaw	Johnson	Bozarth	Venketeswaran	Covington	Halliwell	Kuykendall
+Study Person First Name	Charles	Pratt	Gene	S.	P.	Robert	William
+Study Person Mid Initials	H	H	A		A.	S	
+Study Person Email							
+Study Person Phone							
+Study Person Fax							
+Study Person Address							
+Study Person Affiliation	Principal Plant Pathologist, U. S. Department of Agriculture, Forest Service, and NASA, Manned Spacecraft Center	Group Supervisor, Chemical Analysis Laboratory, Brown and Northrop	Senior Research Analyst, Northrop Services Inc.	Lunar Receiving Laboratory, Lyndon B. Johnson Space Center	Lunar Receiving Laboratory, Lyndon B. Johnson Space Center	Texas A and M University	Texas A and M University
+Study Person Roles	pathologist	supervision role	formal analysis role	supervision role	investigation role	investigation role	formal analysis role
+Study Person Roles Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0009738	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology	http://purl.org/credit/ontology
+Study Person Roles Term Source REF	EFO	CRO	CRO	CRO	CRO	CRO	CRO

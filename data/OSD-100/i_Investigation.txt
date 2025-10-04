@@ -1,0 +1,112 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	NCBITAXON	RXNORM	ENVO	EFO	OBI	NCIT	MESH	SO	UO
+Term Source File	http://data.bioontology.org/ontologies/NCBITAXON	http://data.bioontology.org/ontologies/RXNORM	http://data.bioontology.org/ontologies/ENVO	http://data.bioontology.org/ontologies/EFO	http://data.bioontology.org/ontologies/OBI	http://data.bioontology.org/ontologies/NCIT	http://data.bioontology.org/ontologies/MESH	http://data.bioontology.org/ontologies/SO	http://data.bioontology.org/ontologies/UO
+Term Source Version	2	12	48	166	32	52	5	229	43
+Term Source Description	National Center for Biotechnology Information (NCBI) Organismal Classification	RxNORM	Environment Ontology	Experimental Factor Ontology	Ontology for Biomedical Investigations	National Cancer Institute Thesaurus	Medical Subject Headings	Sequence Types and Features Ontology	Units of Measurement Ontology
+INVESTIGATION
+Investigation Identifier	1.53E+12
+Investigation Title	Investigation
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-100
+Study Title	Rodent Research-1 (RR1) NASA Validation Flight: Mouse eye transcriptomic and epigenomic data
+Study Description	NASA's Rodent Research (RR) project is playing a critical role in advancing biomedical research on the physiological effects of space environments. Due to the limited resources for conducting biological experiments aboard the International Space Station (ISS), it is imperative to use crew time efficiently while maximizing high-quality science return. NASA's GeneLab project has as its primary objectives to 1) further increase the value of these experiments using a multi-omics, systems biology-based approach, and 2) disseminate these data without restrictions to the scientific community. The current investigation assessed viability of RNA, DNA, and protein extracted from archived RR-1 tissue samples for epigenomic, transcriptomic, and proteomic assays. During the first RR spaceflight experiment, a variety of tissue types were harvested from subjects, snap-frozen or RNAlater-preserved, and then stored at least a year at -80C after return to Earth. They were then prioritized for this investigation based on likelihood of significant scientific value for spaceflight research. All tissues were made available to GeneLab through the bio-specimen sharing program managed by the Ames Life Science Data Archive and included mouse adrenal glands, quadriceps, gastrocnemius, tibialis anterior, extensor digitorum longus, soleus, eye, and kidney. We report here protocols for and results of these tissue extractions, and thus, the feasibility and value of these kinds of omics analyses. In addition to providing additional opportunities for investigation of spaceflight effects on the mouse transcriptome and proteome in new kinds of tissues, our results may also be of value to program managers for the prioritization of ISS crew time for rodent research activities.
+Study Submission Date	07-Nov-2016
+Study Public Release Date	28-Feb-2017
+Study File Name	s_OSD-100.txt
+Comment[Acknowledgments]	
+Comment[DOI]	10.26030/whek-4p98
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	Rodent Habitat
+Comment[Flight Program]	International Space Station (ISS)
+Comment[Funding]	This investigation was funded by the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division, and additional funding from the International Space Station Research Integration Office to the Space Biology GeneLab Project
+Comment[Identifiers]	
+Comment[Managing NASA Center]	NASA Ames Research Center (ARC)
+Comment[Mission End]	10/25/14
+Comment[Mission Link]	https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-4
+Comment[Mission Name]	SpaceX-4
+Comment[Mission Start]	9/21/14
+Comment[Project Identifier]	
+Comment[Project Link]	https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13380
+Comment[Project Title]	Rodent Research 1
+Comment[Project Type]	Spaceflight Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	transcription profiling by high throughput sequencing	methylation profiling by high throughput sequencing
+Study Design Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0002770	http://www.ebi.ac.uk/efo/EFO_0002761
+Study Design Type Term Source REF	EFO	EFO
+STUDY PUBLICATIONS
+Study PubMed ID	32045996
+Study Publication DOI	10.3390/cancers12020381
+Study Publication Author List	McDonald TJ, Stainforth R, Miller J, Cahill T, da Silveira WA, Rathi, KS, Hardiman G, Taylor D, Costes SV, Chauhan V, Meller R, Beheshti A
+Study Publication Title	NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	https://www.mdpi.com/2072-6694/12/2/381
+STUDY FACTORS
+Study Factor Name	Spaceflight
+Study Factor Type	Space Flight
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026
+Study Factor Type Term Source REF	MESH
+STUDY ASSAYS
+Study Assay File Name	a_OSD-100_dna-methylation-profiling_whole-genome-bisulfite-sequencing.txt	a_OSD-100_transcription-profiling_rna-sequencing-(rna-seq).txt
+Study Assay Measurement Type	DNA methylation profiling	transcription profiling
+Study Assay Measurement Type Term Accession Number	OBI:0000634	obo:OBI_0000424
+Study Assay Measurement Type Term Source REF	OBI	OBI
+Study Assay Technology Type	Whole Genome Bisulfite Sequencing	RNA Sequencing (RNA-Seq)
+Study Assay Technology Type Term Accession Number		obo:OBI_0001271
+Study Assay Technology Type Term Source REF		OBI
+Study Assay Technology Platform	Illumina	Illumina HiSeq 4000
+STUDY PROTOCOLS
+Study Protocol Name	Animal Husbandry	sample collection	nucleic acid extraction	RNA sequencing library construction	DNA sequencing library construction	nucleic acid sequencing	GeneLab raw data processing protocol	GeneLab RNAseq data processing protocol
+Study Protocol Type	Animal Husbandry	sample collection	nucleic acid extraction	library construction	library construction	nucleic acid sequencing	data transformation	data transformation
+Study Protocol Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D000822							
+Study Protocol Type Term Source REF	MESH	MESH	MESH	MESH	MESH	MESH	MESH	MESH
+Study Protocol Description	A cohort of 16-week-old female C57BL/6J mice (Jackson Lab) were flown to the ISS, housed in the Rodent Habitat and were subjected to microgravity for 37 days. Mice of simiar age, sex and strain were used for ground controls housed in identical hardware and matching ISS environmental conditions. The mice were euthanized by ISS crew with Euthasol injection followed by cervical dislocation, frozen in a pre-chilled Mini Cold Bag (MCB) before transfer to the MELFI freezer (-80 C) and brought back to Earth. The study followed recommendations in the Guide for the Care and Use of Laboratory Animals and the protocol was approved by the NASA Flight Institutional Animal Care and Use Committee (IACUC).	The mouse carcasses were removed from -80 C storage and thawed at room temperature for 15-20 minutes. Multiple tissues, including left and right eyes, were collected from each animal. Total dissection time for each carcass was no longer than 30 minutes since collection of the first tissue. Left and right eyes were harvested and stored separately overnight at 4 C in RNAlater, then transferred to -80 C. (In this study, only left eye tissue was analyzed)	RNA and DNA were extracted using the AllPrep DNA/RNA Mini Kit (Qiagen, Valencia, CA). Briefly, homogenization buffer for DNA and RNA purification was made by adding 1:100 volumes of beta-mercaptoethanol to Buffer RLT (Qiagen, Valenica, CA) and kept on ice until use. After thawing on ice, left eyes were weighed and immediately placed in 800 uL of the Buffer RLT solution. Each sample was then homogenized for approximately 20 seconds at 21,000 RPM using a Polytron PT1300D handheld homogenizer with a 5 mm standard dispersing aggregate tip (Kinematica, Bohemia, NY). Homogenates were centrifuged for 3 minutes at room temperature at 15,000 RPM to remove cell debris. The supernatant from each sample was then used to isolate and purify DNA and RNA following the manufacturer protocol. DNA was eluted twice per sample in 50 uL H2O per elution. RNA was eluted twice per sample in 30 uL H2O per elution. Concentration and absorbance ratios for all DNA and RNA samples were measured using the NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific, Waltham, MA). RNA quality was assessed using the Agilent 2100 Bioanalyzer with the Agilent RNA 6000 Nano Kit or Agilent RNA 6000 Pico Kit (Agilent Technologies, Santa Clara, CA).	RNA sequencing library construction was performed by UC Davis Genome Center using the Illumina TruSeq standard RNA library prep kit after ribo-depletion. The libraries were QC-ed by bioanalyzer and quantified by fluorometric Qubit measurements.	DNA sequencing library construction was performed by UC Davis Genome Center. Aliquots of each DNA sample was bisulfite-converted with the EZ DNA Methylation-Gold kit (Zymo Research). Sequencing libraries was generated from the converted DNA sample with the EpiGnome Methyl-Seq kit (Epicentre). The resulting libraries were QC-ed by bioanalyzer and quantified by fluorometric Qubic measurements and RT-PCR.	The RNA library sequencing was performed on the Illumina HiSeq 4000 platform, three high output HiSeq lanes with 100 bp paired end stranded reads and index reads. 30 million reads per sample was requested. Performed by UC Davis Genome Center. The BS-sequencing was performed on the Illumina HiSeq 4000 at UC Davis Genome Center. Each library was sequenced on one HiSeq lane by itself with paired end 150bp reads	Raw fastq files from each sample were assessed for % rRNA using HTStream SeqScreener (version 1.0.0). Raw fastq file quality was evaluated with FastQC (version 0.11.8) and MultiQC (version 1.7) was used to generate MultiQC reports.	Raw fastq files were filtered using Trim Galore! (version 0.6.2). Trimmed fastq file quality was evaluated with FastQC (version 0.11.8), and MultiQC (version 1.7) was used to generate MultiQC reports. Mus musculus STAR and RSEM references were built using STAR (version 2.7.1a) and RSEM (version 1.3.1), respectively, Ensembl release 96, genome version mm10-GRCm38 (Mus_musculus.GRCm38.dna.toplevel.fa), and the following gtf annotation file: Mus_musculus.GRCm38.96.gtf. Trimmed reads were aligned to the Mus musculus STAR reference with STAR (version 2.7.1a) and aligned reads were quantified using RSEM (version 1.3.1). The runsheet was generated with dp_tools (version 1.1.8) and the runsheet and quantification data were imported to R (version 4.1.3) with tximport (version 1.27.1) and normalized with DESeq2 (version 1.34.0). Differential expression analysis was performed in R (version 4.1.3) using DESeq2 (version 1.34.0); all groups were compared using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the GeneLab Reference Annotations pipeline (https://github.com/nasa/GeneLab_Data_Processing/blob/master/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Mm.eg.db (version 3.15.0). Processing scripts used can be found on GitHub here: https://github.com/nasa/GeneLab_Data_Processing/tree/master/RNAseq/GLDS_Processing_Scripts/GLDS-100/GLDS_version_5
+Study Protocol URI								
+Study Protocol Version								
+Study Protocol Parameters Name	Light Cycle;habitat;Duration	Euthanasia Method;Carcass Preservation Method;Sample Preservation Method;Sample Storage Temperature	QA Instrument;QA Assay;QA Score	library selection;library layout;stranded;Library QA Instrument	library strategy;library selection;library layout	sequencing instrument;Read Length	Merged Sequence Data File;rRNA Contamination;Read Depth;Merged Sequence Data Fastqc File;Merged Sequence Data Multiqc File;trimmed sequence data;Trimmed Sequence Data Fastqc File;Trimmed Sequence Data Multiqc File;Trimmed Report;aligned sequence data;Alignment Logs;Raw Counts Data File;Normalized Counts Data File;differential expression analysis data transformation	trimmed sequence data;Trimmed Sequence Data Fastqc File;Trimmed Sequence Data Multiqc File;Trimmed Report;aligned sequence data;Alignment Logs;Raw Counts Data File;Normalized Counts Data File;differential expression analysis data transformation
+Study Protocol Parameters Name Term Accession Number	;;	;;;	;;	;;;	;;	;	;;;;;;;;;;;;;	;;;;;;;;
+Study Protocol Parameters Name Term Source REF	;;	;;;	;;	;;;	;;	;	;;;;;;;;;;;;;	;;;;;;;;
+Study Protocol Components Name								
+Study Protocol Components Type								
+Study Protocol Components Type Term Accession Number								
+Study Protocol Components Type Term Source REF								
+STUDY CONTACTS
+Study Person Last Name	Globus	Galazka
+Study Person First Name	Ruth	Jonathan
+Study Person Mid Initials		
+Study Person Email	ruth.k.globus@nasa.gov	jonathan.m.galazka@nasa.gov
+Study Person Phone		
+Study Person Fax		
+Study Person Address		
+Study Person Affiliation	NASA ARC	NASA GeneLab
+Study Person Roles	RR1 Project Scientist	Project Scientist
+Study Person Roles Term Accession Number		
+Study Person Roles Term Source REF		
+Comment[Study Person REF]		
