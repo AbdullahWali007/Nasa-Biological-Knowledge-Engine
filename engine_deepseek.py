@@ -22,7 +22,7 @@ import webbrowser
 from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple
 import base64
-import functools
+import tempfile
 
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -574,10 +574,6 @@ class EngineRunner:
 
 
 # ---------- Helpers to load index ----------
-@st.cache_resource(show_spinner=False)
-def load_index_cached():
-    return load_index()
-
 def load_index() -> Dict[str, Any]:
     if not INDEX_PATH.exists():
         logger.warning("index.json not found; App will start with empty index.")
@@ -590,166 +586,27 @@ def load_index() -> Dict[str, Any]:
         return {}
 
 
-# ---------- Enhanced UI Components ----------
-def create_custom_header():
-    st.markdown("""
-    <style>
-    .main-header {
-        font-size: 2.5rem;
-        color: #1f77b4;
-        text-align: center;
-        margin-bottom: 1rem;
-        background: linear-gradient(45deg, #1f77b4, #ff7f0e);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: bold;
-    }
-    .dataset-card {
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        padding: 1rem;
-        margin: 0.5rem 0;
-        background: #f9f9f9;
-        transition: transform 0.2s;
-    }
-    .dataset-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .success-box {
-        background-color: #d4edda;
-        border: 1px solid #c3e6cb;
-        border-radius: 5px;
-        padding: 15px;
-        margin: 10px 0;
-    }
-    .info-box {
-        background-color: #d1ecf1;
-        border: 1px solid #bee5eb;
-        border-radius: 5px;
-        padding: 15px;
-        margin: 10px 0;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-    
-    st.markdown('<h1 class="main-header">🚀 NASA Space Biology Engine</h1>', unsafe_allow_html=True)
-
-def show_user_tips():
-    """Show helpful usage tips"""
-    with st.expander("💡 Tips for better results", expanded=True):
-        st.markdown("""
-        - **Be specific**: "mouse liver gene expression in microgravity" vs "space biology"
-        - **Include organisms**: Mention specific organisms like "mouse", "human", "arabidopsis"
-        - **Specify data types**: "RNA-seq", "proteomics", "methylation data"
-        - **Use NASA terms**: "microgravity", "spaceflight", "GeneLab", "OSDR"
-        - **Ask analytical questions**: "Compare Earth vs space conditions for..."
-        """)
-
-def provide_search_suggestions(query):
-    """Provide intelligent search suggestions"""
-    suggestions = []
-    
-    if "gene" in query.lower() and "expression" in query.lower():
-        suggestions.append("Try searching for 'RNA-seq data' or 'transcriptomics'")
-    
-    if "mouse" in query.lower():
-        suggestions.append("Consider including strain information like 'C57BL/6J'")
-    
-    if "space" in query.lower() and "health" in query.lower():
-        suggestions.append("You might be interested in 'space radiation effects' or 'microgravity physiology'")
-    
-    return suggestions
-
-def create_settings_panel():
-    """User-configurable settings"""
-    with st.sidebar.expander("⚙️ Settings", expanded=False):
-        st.subheader("API Configuration")
-        
-        api_key = st.text_input(
-            "Gemini API Key",
-            value=st.session_state.get('api_key', GEMINI_API_KEY),
-            type="password",
-            help="Get your API key from Google AI Studio"
-        )
-        
-        if api_key != GEMINI_API_KEY and api_key is not None:
-            os.environ['GEMINI_API_KEY'] = api_key
-            st.session_state.api_key = api_key
-        
-        st.subheader("Display Options")
-        show_raw_json = st.checkbox("Show raw JSON in results", value=False)
-        auto_open_urls = st.checkbox("Auto-open relevant URLs", value=False)
-        
-        return show_raw_json, auto_open_urls
-
-def create_export_options(result):
-    """Enhanced export options"""
-    st.subheader("📤 Export Results")
-    
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        # Export as JSON
-        json_str = json.dumps(result, indent=2, ensure_ascii=False)
-        b64 = base64.b64encode(json_str.encode()).decode()
-        href = f'<a href="data:file/json;base64,{b64}" download="nasa_space_biology_result.json" style="text-decoration: none;">📄 Download JSON</a>'
-        st.markdown(href, unsafe_allow_html=True)
-    
-    with col2:
-        # Export as CSV for datasets
-        if result.get('used_datasets'):
-            csv_data = pd.DataFrame(result['used_datasets'])
-            csv = csv_data.to_csv(index=False)
-            b64_csv = base64.b64encode(csv.encode()).decode()
-            href_csv = f'<a href="data:file/csv;base64,{b64_csv}" download="nasa_datasets.csv" style="text-decoration: none;">📊 Download CSV</a>'
-            st.markdown(href_csv, unsafe_allow_html=True)
-    
-    with col3:
-        # Export answer as text
-        if result.get('answer'):
-            b64_txt = base64.b64encode(result['answer'].encode()).decode()
-            href_txt = f'<a href="data:file/txt;base64,{b64_txt}" download="nasa_answer.txt" style="text-decoration: none;">📝 Download Text</a>'
-            st.markdown(href_txt, unsafe_allow_html=True)
-
-def handle_gemini_errors(func):
-    """Decorator for better error handling"""
-    @functools.wraps(func)
-    def wrapper(*args, **kwargs):
-        try:
-            return func(*args, **kwargs)
-        except Exception as e:
-            st.error(f"❌ Error in {func.__name__}: {str(e)}")
-            if 'logs' in st.session_state:
-                st.session_state.logs.append(f"ERROR in {func.__name__}: {str(e)}")
-            return None
-    return wrapper
-
 # ---------- Streamlit App ----------
 def main():
     st.set_page_config(
-        page_title=" Engine — Intelligent NASA Space Biology Search",
+        page_title="Nasa Biological Space Engine — Intelligent NASA Space Biology Search",
         page_icon="🚀",
         layout="wide",
         initial_sidebar_state="expanded"
     )
     
-    # Enhanced header
-    create_custom_header()
-    
     # Initialize session state
     if 'runner' not in st.session_state:
-        data_index = load_index_cached()
+        data_index = load_index()
         st.session_state.runner = EngineRunner(data_index)
         st.session_state.logs = ["App initialized. Intelligent NASA Space Biology search engine loaded."]
         st.session_state.current_result = None
         st.session_state.selected_dataset = None
+        
     
-    # Load settings
-    show_raw_json, auto_open_urls = create_settings_panel()
-    
-    # Show tips
-    show_user_tips()
+    # Header
+    st.title("Nasa Biological Space Engine 🚀")
+    st.subheader("Intelligent NASA Space Biology Search (A hack for common people and researchers)")
     
     # Sidebar
     with st.sidebar:
@@ -807,45 +664,33 @@ def main():
         st.write("")  # Spacing
         ask_btn = st.button("🚀 Ask", use_container_width=True)
     
-    # Show search suggestions
-    if query:
-        suggestions = provide_search_suggestions(query)
-        for suggestion in suggestions:
-            st.info(f"💡 {suggestion}")
-    
     # Process query
     if ask_btn and query:
-        # Clear previous results
-        st.session_state.current_result = None
-        st.session_state.selected_dataset = None
-        
-        # Add to logs
-        st.session_state.logs.append(f"Query: {query}")
-        
-        # Process with error handling
-        try:
-            with st.spinner("🔬 Analyzing question for NASA space biology relevance..."):
-                # Find relevant datasets
+        with st.spinner("🔬 Analyzing question for NASA space biology relevance..."):
+            # Clear previous results
+            st.session_state.current_result = None
+            st.session_state.selected_dataset = None
+            
+            # Add to logs
+            st.session_state.logs.append(f"Query: {query}")
+            
+            # Find relevant datasets
+            with st.status("Searching NASA space biology datasets...", expanded=True) as status:
                 cand = st.session_state.runner.search_index.query(query, top_k=TOP_K_DATASETS)
-                st.session_state.logs.append(f"Found {len(cand)} relevant datasets")
-                
-                # Get answer
-                with st.status("Consulting NASA repositories and analyzing data...", expanded=True) as status:
-                    result = st.session_state.runner.ask(query, prefer_dataset_urls_first=True)
-                    st.session_state.current_result = result
-                    st.session_state.logs.append("NASA space biology analysis complete.")
-                    status.update(label="Analysis complete", state="complete")
-                    
-        except Exception as e:
-            st.error(f"Error processing query: {str(e)}")
-            st.session_state.logs.append(f"Error: {str(e)}")
+                for c in cand:
+                    st.write(f"• {c['dataset']} (score: {c['score']:.3f})")
+                status.update(label="Found relevant datasets", state="complete")
+            
+            # Get answer
+            with st.status("Consulting NASA repositories and analyzing data...", expanded=True) as status:
+                result = st.session_state.runner.ask(query, prefer_dataset_urls_first=True)
+                st.session_state.current_result = result
+                st.session_state.logs.append("NASA space biology analysis complete.")
+                status.update(label="Analysis complete", state="complete")
     
     # Display results
     if st.session_state.current_result:
         result = st.session_state.current_result
-        
-        # Success message
-        st.markdown('<div class="success-box">✅ NASA Space Biology analysis complete!</div>', unsafe_allow_html=True)
         
         # Create tabs for different result views
         tab1, tab2, tab3, tab4 = st.tabs(["💬 Answer", "🔗 Recommended URLs", "📊 Dataset Details", "📋 Raw Metadata"])
@@ -864,16 +709,12 @@ def main():
             urls = result.get("recommended_urls", [])
             if urls:
                 for i, url in enumerate(urls):
-                    col1, col2, col3 = st.columns([4, 1, 1])
+                    col1, col2 = st.columns([4, 1])
                     with col1:
-                        st.write(f"**{i+1}.** {url}")
+                        st.write(f"{i+1}. {url}")
                     with col2:
                         if st.button("🌐 Open", key=f"open_{i}"):
                             webbrowser.open_new_tab(url)
-                    with col3:
-                        if st.button("📋 Copy", key=f"copy_{i}"):
-                            st.code(url, language=None)
-                            st.success("URL copied to clipboard!")
             else:
                 st.info("No URLs recommended")
         
@@ -889,7 +730,7 @@ def main():
                     ctx, urls, struct = build_context_for_dataset(ds, meta)
                     
                     st.subheader("Context Summary")
-                    st.text_area("Context", ctx, height=200, key=f"ctx_{ds}", label_visibility="collapsed")
+                    st.text_area("Context", ctx, height=200, key=f"ctx_{ds}")
                     
                     if urls:
                         st.subheader("Dataset URLs")
@@ -902,27 +743,26 @@ def main():
                 st.info("Select a dataset from the sidebar to view details")
         
         with tab4:
-            if show_raw_json:
-                st.subheader("Raw Metadata")
-                meta = result.get("meta", {})
-                used_datasets = result.get("used_datasets", [])
-                structured = result.get("structured", {})
-                
-                out_meta = {
-                    "meta": meta,
-                    "used_datasets": [d for d in used_datasets],
-                    "structured": structured
-                }
-                
-                st.json(out_meta)
-            else:
-                st.info("Enable 'Show raw JSON in results' in settings to view raw metadata")
-        
-        # Export options
-        st.divider()
-        create_export_options(result)
+            st.subheader("Raw Metadata")
+            meta = result.get("meta", {})
+            used_datasets = result.get("used_datasets", [])
+            structured = result.get("structured", {})
+            
+            out_meta = {
+                "meta": meta,
+                "used_datasets": [d for d in used_datasets],
+                "structured": structured
+            }
+            
+            st.json(out_meta)
+            
+            # Download result button
+            json_str = json.dumps(out_meta, indent=2, ensure_ascii=False)
+            b64 = base64.b64encode(json_str.encode()).decode()
+            href = f'<a href="data:file/json;base64,{b64}" download="nasa_space_biology_result.json">💾 Download Result as JSON</a>'
+            st.markdown(href, unsafe_allow_html=True)
     
-    # Dataset preview in main area if selected but no current result
+    # Dataset preview in main area if selected
     elif st.session_state.selected_dataset and not st.session_state.current_result:
         ds = st.session_state.selected_dataset
         meta = st.session_state.runner.data_index.get(ds, {})
@@ -931,7 +771,7 @@ def main():
         ctx, urls, struct = build_context_for_dataset(ds, meta)
         
         with st.expander("Context Summary", expanded=True):
-            st.text_area("Context", ctx, height=200, label_visibility="collapsed")
+            st.text_area("Context", ctx, height=200)
         
         if urls:
             with st.expander("Dataset URLs", expanded=True):
