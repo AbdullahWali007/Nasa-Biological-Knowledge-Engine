@@ -193,7 +193,7 @@ class SearchIndex:
                 continue
 
             try:
-                df_preview = pd.read_csv(path, sep=None, nrows=20, engine="python", low_memory=False)
+                df_preview = pd.read_csv(path, sep=None, engine="python", low_memory=False).head(20)
             except Exception:
                 try:
                     txt = path.read_text(encoding="utf-8", errors="ignore")[:2000]
@@ -632,7 +632,7 @@ def main():
             else:
                 st.info("No candidate datasets found locally.")
 
-        with st.spinner("Analyzing and generating answer..."):
+        with st.spinner("Analyzing, Cooking and generating answer..."):
             result = runner.ask(query, prefer_dataset_urls_first=True)
             st.session_state.current_result = result
             st.session_state.logs.append("Analysis complete.")
