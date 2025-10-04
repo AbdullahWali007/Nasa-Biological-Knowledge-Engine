@@ -193,7 +193,7 @@ class SearchIndex:
                 continue
 
             try:
-                df_preview = pd.read_csv(path, sep=None, engine="python", low_memory=False).head(20)
+                df_preview = pd.read_csv(path, sep=None, nrows=20, engine="python", low_memory=False)
             except Exception:
                 try:
                     txt = path.read_text(encoding="utf-8", errors="ignore")[:2000]
@@ -376,7 +376,6 @@ def call_gemini(prompt: str) -> Tuple[bool, Any]:
             model=GEMINI_MODEL,
             contents=prompt,
             config=types.GenerateContentConfig(
-                tools=[types.Tool(code_execution=types.ToolCodeExecution())],
                 max_output_tokens=1024,
             ),
         )
