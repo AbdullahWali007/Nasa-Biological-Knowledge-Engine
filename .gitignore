@@ -1,7 +1,0 @@
-.gitignore
-# Streamlit
-.streamlit/secrets.toml
-
-# API keys
-*_key.txt
-*_key.json
