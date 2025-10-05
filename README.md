@@ -48,7 +48,7 @@ pip install google-genai   # optional, for Gemini API calls
 
 * `engine_deepseek.py` — Main Streamlit app
 * `index.json` — Dataset metadata index (required)
-
+* `data\` — Data OSD
 ---
 
 ## ⚠️ Notes & Limitations
