@@ -4,3 +4,4 @@ pandas==2.2.3
 numpy==1.26.4
 scipy==1.14.1
 google-genai==0.8.0
+openai
