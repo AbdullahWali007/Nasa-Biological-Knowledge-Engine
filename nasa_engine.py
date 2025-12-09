@@ -656,8 +656,8 @@ def main():
         st.session_state.selected_dataset = None
         
     
-    st.title("Nasa Biological Space Engine 🚀")
-    st.subheader("Intelligent NASA Space Biology Search (Powered by LongCat AI)")
+    st.title("Nasa Biological Space Engine ")
+    st.subheader("Intelligent NASA Space Biology Search ")
     
     with st.sidebar:
         st.header("Controls & Information")
@@ -823,4 +823,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
